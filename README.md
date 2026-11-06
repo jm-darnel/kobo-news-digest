@@ -46,9 +46,9 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 - No-op runs create no commit (no pointless Pages rebuilds).
 - `run-summary.md` is written only when the digest changed, so it never forces
   a commit on a quiet run.
+- Pages rebuilds 1-3 min after a push (occasionally longer), so a feed the bot
+  just committed can lag slightly behind `main`.
 - If the digest goes stale: check the workflow's disabled banner first, then
-  the last run log for per-source errors.
-
-<!-- race test marker 17:50:19 -->
-
-<!-- race2 17:52:11 -->
+  the last run log for per-source errors. A no-op run deliberately creates no
+  commit, so a long quiet stretch does not reset the 60-day auto-disable clock —
+  that is a known, accepted tradeoff, not a bug.

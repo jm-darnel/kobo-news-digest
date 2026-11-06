@@ -518,6 +518,8 @@ def load_digest() -> list[dict]:
             key = it["key"]
         except (KeyError, ValueError, TypeError, AttributeError):
             continue
+        if not str(it.get("page_url", "")).startswith(BASE_URL + "/articles/"):
+            continue  # never publish a link that leaves our own Pages host
         if (ARTICLES / f"{key}.html").exists():
             items.append(it)
     return items
