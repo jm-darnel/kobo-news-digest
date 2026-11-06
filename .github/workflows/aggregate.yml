@@ -1,0 +1,62 @@
+name: aggregate
+
+# Cron-only by design: an `on: push` trigger would make every commit-back
+# re-trigger the workflow and spin forever.
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggregate
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # shallow clones make `git pull --rebase` fragile
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build digest
+        run: python aggregate.py
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          paths=(news-digest.xml seen.json run-summary.md)
+          [ -d articles ] && paths+=(articles)
+          git add -A -- "${paths[@]}"
+
+          if git diff --cached --quiet; then
+            echo "No changes — no commit (no-op run)."
+            exit 0
+          fi
+
+          git commit -m "digest: update $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Fold in anything that landed between checkout and push (a queued
+          # run's commit, or a manual push). Generated files are already
+          # committed, so the rebase runs on a clean tree.
+          git pull --rebase --autostash
+          git push
+
+      - name: Check Pages (non-fatal)
+        run: |
+          sleep 90
+          curl -s -o /dev/null -w "feed HTTP %{http_code}\n" \
+            https://jm-darnel.github.io/kobo-news-digest/news-digest.xml || true
