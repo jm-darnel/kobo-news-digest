@@ -102,6 +102,13 @@ def item_key(url: str, guid: str | None = None) -> str:
     return hashlib.sha256(basis.encode("utf-8")).hexdigest()[:16]
 
 
+SPONSORED = re.compile(r"^\s*(sponsored|advertisement|partner\s+content|paid\s+post)\b", re.I)
+
+
+def is_sponsored(title: str) -> bool:
+    return bool(SPONSORED.match(title))
+
+
 def strip_emoji(text: str) -> str:
     return EMOJI.sub("", text)
 
@@ -125,7 +132,8 @@ def clean_text(text: str) -> str:
     text = TAIL.sub("", text)          # "The post … appeared first on …"
     text = CONTROL.sub("", text)       # lxml refuses XML-incompatible control chars
     text = strip_emoji(text).replace("\u00a0", " ")
-    return re.sub(r"[ \t\r\f\v]+", " ", text).strip()
+    text = re.sub(r"\[\s*more\s*[›»]?\s*\]", " ", text, flags=re.I)
+    return re.sub(r"\s+", " ", text).strip()  # collapse newlines too: KOReader flattens them
 
 
 # --------------------------------------------------------------------------- #
@@ -139,6 +147,7 @@ BOILERPLATE_START = re.compile(
         follow\s+us | share\s+this | advertisement | shop\s+now |
         add\s+to\s+cart | price\s*range | photo\s*credit |
         best\s+selling\s+products | from\s+history\s+to\s+today |
+        this\s+(story|article)\s+was\s+originally\s+published\s+by |
         the\s+#1\s+source\s+in\s+the\s+world
     )""",
     re.I | re.X,
@@ -301,7 +310,7 @@ def rss_candidates(src: dict, sess: requests.Session) -> list[dict]:
     out = []
     for entry in parsed.entries:
         link = (entry.get("link") or "").strip()
-        if not link:
+        if not link or is_sponsored(entry.get("title") or ""):
             continue
         feed_content = ""
         for block in entry.get("content") or []:
@@ -348,7 +357,7 @@ def json_candidates(src: dict, sess: requests.Session) -> list[dict]:
         if title_match and title_match not in (page.get("title") or "").lower():
             continue
         slug = meta.get("slug")
-        if not slug:
+        if not slug or is_sponsored(page.get("title") or ""):
             continue
         link = src["article_url"].format(slug=slug)
         published = datetime.now(timezone.utc)
@@ -694,12 +703,13 @@ def main() -> int:
         f"({len(rendered)} new, {len(items) - len(rendered)} carried over), "
         f"{XML_PATH.stat().st_size // 1024} KB")
 
-    if rendered:
+    if rendered or keys != prev_keys:
         lines = [
             f"# Digest run {now.strftime('%Y-%m-%dT%H:%MZ')}",
             "",
-            f"{len(rendered)} new items — "
-            + ", ".join(f"{k} {v}" for k, v in sorted(mode_counts.items())),
+            f"{len(rendered)} new items, {len(items)} in window"
+            + (" — " + ", ".join(f"{k} {v}" for k, v in sorted(mode_counts.items()))
+               if mode_counts else " — aging only, no new extractions"),
             "",
             "| source | new | feed |",
             "|---|---|---|",

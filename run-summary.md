@@ -1,6 +1,6 @@
-# Digest run 2026-11-06T18:07Z
+# Digest run 2026-11-06T18:17Z
 
-40 new items — extracted 27, feed-native 12, partial 1
+40 new items, 40 in window — extracted 28, feed-native 11, partial 1
 
 | source | new | feed |
 |---|---|---|
@@ -10,5 +10,5 @@
 | The City | 8 | 10 in feed |
 | NY1 | 8 | 100 in feed |
 | Gothamist (Harlem) | 0 | 5 in feed |
-| Harlem World | 8 | 15 in feed |
+| Harlem World | 8 | 14 in feed |
 | Amsterdam News | 6 | 10 in feed |
