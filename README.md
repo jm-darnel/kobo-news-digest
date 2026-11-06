@@ -40,6 +40,10 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 - Pages source must stay **Deploy from a branch → main → / (root)**. The
   "GitHub Actions" Pages source silently never updates from commits.
+- **`.nojekyll` is required.** "Deploy from a branch" runs Jekyll on the
+  published tree by default, and generated article HTML makes those builds
+  fail intermittently (`Page build failed`, served content silently stale).
+  With `.nojekyll` present, Pages serves the files raw.
 - `main` must stay unprotected so `github-actions[bot]` can push.
 - Scheduled workflows on public repos are auto-disabled after 60 days without
   repo activity; the digest's own commits count as activity.
