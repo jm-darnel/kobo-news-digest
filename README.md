@@ -48,3 +48,5 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
   a commit on a quiet run.
 - If the digest goes stale: check the workflow's disabled banner first, then
   the last run log for per-source errors.
+
+<!-- race test marker 17:50:19 -->
