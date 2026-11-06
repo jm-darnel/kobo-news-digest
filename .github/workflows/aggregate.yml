@@ -39,7 +39,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          paths=(news-digest.xml seen.json run-summary.md)
+          paths=(news-digest.xml seen.json digest.json run-summary.md)
           [ -d articles ] && paths+=(articles)
           git add -A -- "${paths[@]}"
 

@@ -33,6 +33,7 @@ import feeds
 ROOT = Path(__file__).resolve().parent
 ARTICLES = ROOT / "articles"
 SEEN_PATH = ROOT / "seen.json"
+DIGEST_PATH = ROOT / "digest.json"
 XML_PATH = ROOT / "news-digest.xml"
 SUMMARY_PATH = ROOT / "run-summary.md"
 
@@ -76,7 +77,8 @@ def get(sess: requests.Session, url: str) -> str | None:
         try:
             r = sess.get(url, timeout=TIMEOUT)
             if r.status_code == 200 and r.text:
-                r.encoding = r.encoding or "utf-8"
+                if "charset" not in r.headers.get("Content-Type", "").lower():
+                    r.encoding = r.apparent_encoding or "utf-8"
                 return r.text
             log(f"    HTTP {r.status_code} {url}")
         except requests.RequestException as exc:
@@ -141,12 +143,21 @@ def html_to_paragraphs(raw: str) -> list[str]:
             el.getparent().remove(el)
 
     paras: list[str] = []
+    # Linearize top-level tables only; a nested table is already covered by its
+    # parent's rows (emitting both would duplicate the text).
+    for tbl in root.iter("table"):
+        if not any(isinstance(a.tag, str) and a.tag.lower() == "table"
+                   for a in tbl.iterancestors()):
+            paras.extend(table_lines(tbl))
+
     for el in root.iter():
         if not isinstance(el.tag, str):
             continue
         tag = el.tag.lower()
         if tag == "table":
-            paras.extend(table_lines(el))
+            continue
+        if any(isinstance(a.tag, str) and a.tag.lower() == "table"
+               for a in el.iterancestors()):
             continue
         if tag in BLOCK_TAGS:
             # Skip blocks nested inside another block we already captured.
@@ -277,15 +288,15 @@ def json_candidates(src: dict, sess: requests.Session) -> list[dict]:
         if not slug:
             continue
         link = src["article_url"].format(slug=slug)
-        published = parse_date({"published_parsed": None})
+        published = datetime.now(timezone.utc)
         stamp = meta.get("first_published_at")
         if stamp:
             try:
-                published = datetime.fromisoformat(stamp)
-                if published.tzinfo is None:
-                    published = published.replace(tzinfo=timezone.utc)
+                parsed_stamp = datetime.fromisoformat(stamp)
+                published = (parsed_stamp if parsed_stamp.tzinfo
+                             else parsed_stamp.replace(tzinfo=timezone.utc))
             except ValueError:
-                pass
+                log(f"    unparseable date on {page.get('title', '')[:50]}: {stamp}")
         out.append({
             "source": src["name"],
             "category": src.get("category", ""),
@@ -413,11 +424,42 @@ def load_seen() -> dict[str, str]:
     if not SEEN_PATH.exists():
         return {}
     try:
-        data = json.loads(SEEN_PATH.read_text())
-        return data.get("seen", {})
+        return json.loads(SEEN_PATH.read_text()).get("seen", {})
     except (json.JSONDecodeError, AttributeError):
         log("seen.json unreadable — starting fresh")
         return {}
+
+
+def load_digest() -> list[dict]:
+    """Current digest window: items with a live article page and a date."""
+    if not DIGEST_PATH.exists():
+        return []
+    try:
+        payload = json.loads(DIGEST_PATH.read_text())
+    except json.JSONDecodeError:
+        log("digest.json unreadable — rebuilding window")
+        return []
+    items = []
+    for it in payload.get("items", []):
+        try:
+            it["published"] = datetime.fromisoformat(it["published"])
+        except (KeyError, ValueError):
+            continue
+        if (ARTICLES / f"{it['key']}.html").exists():
+            items.append(it)
+    return items
+
+
+def save_digest(items: list[dict]) -> None:
+    keep = ("key", "title", "link", "page_url", "summary", "category", "source")
+    payload = {
+        "version": 1,
+        "items": [
+            {**{k: it.get(k, "") for k in keep}, "published": it["published"].isoformat()}
+            for it in items
+        ],
+    }
+    DIGEST_PATH.write_text(json.dumps(payload, indent=1) + "\n")
 
 
 def write_if_changed(path: Path, content: str) -> bool:
@@ -434,8 +476,26 @@ def write_if_changed(path: Path, content: str) -> bool:
 def main() -> int:
     sess = session()
     seen = load_seen()
-    cutoff = datetime.now(timezone.utc) - timedelta(days=FRESH_DAYS)
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=FRESH_DAYS)
     ARTICLES.mkdir(exist_ok=True)
+
+    previous = load_digest()
+    previous = [it for it in previous if it["published"] >= cutoff]
+    prev_keys = [it["key"] for it in previous]
+    known = set(prev_keys) | set(seen)
+
+    # Per-source quota: a source may contribute at most max_items to the
+    # window, so only candidates that fill a free slot or are newer than the
+    # oldest item that source already has can make it in. Without this, each
+    # run would pull the next N items off every feed and churn the digest.
+    count_by_source: dict[str, int] = {}
+    oldest_by_source: dict[str, datetime] = {}
+    for it in previous:
+        src_name = it.get("source", "")
+        count_by_source[src_name] = count_by_source.get(src_name, 0) + 1
+        if src_name not in oldest_by_source or it["published"] < oldest_by_source[src_name]:
+            oldest_by_source[src_name] = it["published"]
 
     candidates: list[dict] = []
     status: list[tuple[str, int, str]] = []
@@ -453,36 +513,40 @@ def main() -> int:
 
         fresh = [c for c in found if c["published"] >= cutoff]
         fresh.sort(key=lambda c: c["published"], reverse=True)
+        quota = int(src.get("max_items", 5))
+        already = count_by_source.get(src["name"], 0)
+        oldest = oldest_by_source.get(src["name"])
         kept, seen_here = [], set()
         for cand in fresh:
             key = item_key(cand["link"])
-            if key in seen or key in run_keys or key in seen_here:
+            if key in known or key in run_keys or key in seen_here:
                 continue
+            fills_slot = already + len(kept) < quota
+            displaces = oldest is not None and cand["published"] > oldest
+            if not (fills_slot or displaces):
+                break  # candidates are newest-first; nothing older can win
             seen_here.add(key)
             run_keys.add(key)
             cand["key"] = key
             kept.append(cand)
-            if len(kept) >= cand["max_items"]:
+            if len(kept) >= quota:
                 break
         log(f"    {len(found)} in feed, {len(fresh)} fresh, {len(kept)} new")
         status.append((src["name"], len(kept), f"{len(found)} in feed"))
         candidates.extend(kept)
         time.sleep(1.0)  # be polite to upstreams
 
-    # Global cap, newest first.
     candidates.sort(key=lambda c: c["published"], reverse=True)
     candidates = candidates[:TOTAL_CAP]
-
-    if not candidates:
-        log("No new items — nothing to do.")
-        if SUMMARY_PATH.exists():
-            SUMMARY_PATH.unlink()
-        return 0
 
     rendered: list[dict] = []
     mode_counts: dict[str, int] = {}
     for cand in candidates:
-        paras, mode = extract(cand, sess)
+        try:
+            paras, mode = extract(cand, sess)
+        except Exception as exc:  # one pathological item must not kill the run
+            log(f"    extract failed {cand['link']}: {exc.__class__.__name__}: {exc}")
+            continue
         if not paras:
             log(f"    skipping empty extraction: {cand['title'][:60]}")
             continue
@@ -491,38 +555,67 @@ def main() -> int:
         cand["page_url"] = f"{BASE_URL}/articles/{cand['key']}.html"
         cand["summary"] = summary_from(paras, cand.get("feed_summary", ""))
         cand["mode"] = mode
-        cand["paragraphs"] = len(paras)
         rendered.append(cand)
         mode_counts[mode] = mode_counts.get(mode, 0) + 1
-        seen[cand["key"]] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        time.sleep(0.5)  # stagger article-page fetches
         log(f"    ✓ {mode:11s} {len(paras):3d}p  {cand['title'][:70]}")
 
-    if not rendered:
-        log("All extractions failed — refusing to write an empty digest.")
+    # The feed is a rolling window, not a per-run delta: keep the fresh items
+    # already published, add this run's new ones, trim oldest-first to the cap.
+    merged = sorted(previous + rendered, key=lambda c: c["published"], reverse=True)
+    quota_by_name = {s["name"]: int(s.get("max_items", 5)) for s in feeds.SOURCES}
+    per_source: dict[str, int] = {}
+    items = []
+    for it in merged:
+        name = it.get("source", "")
+        cap = quota_by_name.get(name, TOTAL_CAP)
+        used = per_source.get(name, 0)
+        if used >= cap:
+            continue
+        per_source[name] = used + 1
+        items.append(it)
+    items = items[:TOTAL_CAP]
+    keys = [it["key"] for it in items]
+
+    if not rendered and keys == prev_keys:
+        # Nothing new and nothing aged out: identical feed, no commit.
+        log("No change — leaving feed untouched.")
+        return 0
+
+    if not items:
+        log("Digest is empty after merge — refusing to publish an empty feed.")
         return 1
 
-    xml = build_xml(rendered)
+    xml = build_xml(items)
     validate(xml)
     XML_PATH.write_bytes(xml)
+    save_digest(items)
 
-    prune_before = (datetime.now(timezone.utc) - timedelta(days=SEEN_KEEP_DAYS)).strftime("%Y-%m-%d")
+    prune_before = (now - timedelta(days=SEEN_KEEP_DAYS)).strftime("%Y-%m-%d")
+    today = now.strftime("%Y-%m-%d")
+    for it in rendered:
+        seen[it["key"]] = today
     seen = {k: v for k, v in seen.items() if v >= prune_before}
     SEEN_PATH.write_text(json.dumps({"version": 1, "seen": seen}, indent=1, sort_keys=True) + "\n")
 
-    lines = [
-        f"# Digest run {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%MZ')}",
-        "",
-        f"{len(rendered)} new items — " + ", ".join(f"{k} {v}" for k, v in sorted(mode_counts.items())),
-        "",
-        "| source | new | feed |",
-        "|---|---|---|",
-    ]
-    lines += [f"| {n} | {c} | {s} |" for n, c, s in status]
-    if len(rendered) < 5:
-        lines += ["", f"**LOW ITEM COUNT ({len(rendered)}) — check upstream sources.**"]
-    write_if_changed(SUMMARY_PATH, "\n".join(lines))
+    log(f"Wrote {XML_PATH.name}: {len(items)} items "
+        f"({len(rendered)} new, {len(items) - len(rendered)} carried over), "
+        f"{XML_PATH.stat().st_size // 1024} KB")
 
-    log(f"Wrote {XML_PATH.name}: {len(rendered)} items, {XML_PATH.stat().st_size // 1024} KB")
+    if rendered:
+        lines = [
+            f"# Digest run {now.strftime('%Y-%m-%dT%H:%MZ')}",
+            "",
+            f"{len(rendered)} new items — "
+            + ", ".join(f"{k} {v}" for k, v in sorted(mode_counts.items())),
+            "",
+            "| source | new | feed |",
+            "|---|---|---|",
+        ]
+        lines += [f"| {n} | {c} | {s} |" for n, c, s in status]
+        if len(rendered) < 5:
+            lines += ["", f"**LOW NEW-ITEM COUNT ({len(rendered)}) — check the per-source table above.**"]
+        write_if_changed(SUMMARY_PATH, "\n".join(lines))
     return 0
 
 
