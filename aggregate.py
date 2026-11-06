@@ -47,7 +47,7 @@ FRESH_DAYS = 7
 SEEN_KEEP_DAYS = 14
 TOTAL_CAP = 40
 MIN_EXTRACT_CHARS = 200
-TRACKING_PARAMS = re.compile(r"^(utm_|fbclid|gclid|ref|s_cid|mc_cid|mc_eid)", re.I)
+TRACKING_PARAMS = re.compile(r"^(utm_.*|fbclid|gclid|ref|s_cid|mc_cid|mc_eid)$", re.I)
 EMOJI = re.compile(
     "[" "\U0001F000-\U0001FAFF" "\U00002600-\U000027BF" "\U0001F1E6-\U0001F1FF"
     "\U0000FE00-\U0000FE0F" "\U00002B00-\U00002BFF" "\U0001F900-\U0001F9FF" "]",
@@ -106,8 +106,16 @@ def strip_emoji(text: str) -> str:
     return EMOJI.sub("", text)
 
 
+TAG = re.compile(r"</?[a-zA-Z][^>]*(?:>|$)")  # also eats a truncated tag at EOS
+CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
+
+
 def clean_text(text: str) -> str:
+    if not text:
+        return ""
     text = html.unescape(text) if "&" in text else text
+    text = TAG.sub(" ", text)          # feed summaries often carry raw/truncated <a>
+    text = CONTROL.sub("", text)       # lxml refuses XML-incompatible control chars
     text = strip_emoji(text).replace("\u00a0", " ")
     return re.sub(r"[ \t\r\f\v]+", " ", text).strip()
 
@@ -115,6 +123,27 @@ def clean_text(text: str) -> str:
 # --------------------------------------------------------------------------- #
 # HTML -> paragraphs
 # --------------------------------------------------------------------------- #
+# Anchored promo/merch patterns: only ever drop a paragraph that STARTS with
+# these, so real prose mentioning "subscribe" survives.
+BOILERPLATE_START = re.compile(
+    r"""^(
+        sign\s*up | subscribe | newsletter | become\s+an?\s+[^.]{0,30}insider |
+        follow\s+us | share\s+this | advertisement | shop\s+now |
+        add\s+to\s+cart | price\s*range | photo\s*credit |
+        best\s+selling\s+products | from\s+history\s+to\s+today |
+        the\s+#1\s+source\s+in\s+the\s+world
+    )""",
+    re.I | re.X,
+)
+MERCH = re.compile(r"(price range|add to cart|shop now|\$\s?\d+\.\d{2}\s*$)", re.I)
+
+
+def is_boilerplate(text: str) -> bool:
+    if BOILERPLATE_START.match(text):
+        return True
+    return len(text) < 140 and bool(MERCH.search(text))
+
+
 def table_lines(tbl) -> list[str]:
     """Linearize a content table into readable lines (MLBTR rumor tables)."""
     lines = []
@@ -174,13 +203,13 @@ def html_to_paragraphs(raw: str) -> list[str]:
         text = clean_text(" ".join(root.itertext()))
         if text:
             paras = [text]
-    return paras
+    return [p for p in paras if not is_boilerplate(p)]
 
 
 def text_to_paragraphs(text: str) -> list[str]:
     text = strip_emoji(text or "").replace("\r", "")
     blocks = [clean_text(b) for b in re.split(r"\n\s*\n|\n", text)]
-    return [b for b in blocks if b]
+    return [b for b in blocks if b and not is_boilerplate(b)]
 
 
 def trafilatura_paragraphs(page_html: str) -> list[str]:
@@ -204,6 +233,8 @@ def trafilatura_paragraphs(page_html: str) -> list[str]:
 
 def summary_from(paras: list[str], feed_summary: str = "", limit: int = 300) -> str:
     base = clean_text(feed_summary) if feed_summary else ""
+    if is_boilerplate(base):
+        base = ""
     if len(base) < 40 and paras:
         base = " ".join(paras[:2])
     base = strip_emoji(base)
@@ -424,10 +455,14 @@ def load_seen() -> dict[str, str]:
     if not SEEN_PATH.exists():
         return {}
     try:
-        return json.loads(SEEN_PATH.read_text()).get("seen", {})
-    except (json.JSONDecodeError, AttributeError):
+        seen = json.loads(SEEN_PATH.read_text()).get("seen", {})
+    except (json.JSONDecodeError, AttributeError, TypeError):
         log("seen.json unreadable — starting fresh")
         return {}
+    if not isinstance(seen, dict):
+        log("seen.json malformed — starting fresh")
+        return {}
+    return {k: v for k, v in seen.items() if isinstance(k, str) and isinstance(v, str)}
 
 
 def load_digest() -> list[dict]:
@@ -442,10 +477,14 @@ def load_digest() -> list[dict]:
     items = []
     for it in payload.get("items", []):
         try:
-            it["published"] = datetime.fromisoformat(it["published"])
-        except (KeyError, ValueError):
+            published = datetime.fromisoformat(it["published"])
+            if published.tzinfo is None:
+                published = published.replace(tzinfo=timezone.utc)
+            it["published"] = published
+            key = it["key"]
+        except (KeyError, ValueError, TypeError, AttributeError):
             continue
-        if (ARTICLES / f"{it['key']}.html").exists():
+        if (ARTICLES / f"{key}.html").exists():
             items.append(it)
     return items
 
@@ -577,8 +616,17 @@ def main() -> int:
     items = items[:TOTAL_CAP]
     keys = [it["key"] for it in items]
 
-    if not rendered and keys == prev_keys:
-        # Nothing new and nothing aged out: identical feed, no commit.
+    # Extraction may have run for a candidate that the caps then trimmed.
+    # Drop its page file and keep it out of seen.json: an unseen item is retried
+    # next run, whereas a seen-but-unpublished one is blacklisted for nothing.
+    landed = set(keys)
+    for cand in rendered:
+        if cand["key"] not in landed:
+            (ARTICLES / f"{cand['key']}.html").unlink(missing_ok=True)
+    rendered = [c for c in rendered if c["key"] in landed]
+
+    if keys == prev_keys:
+        # Nothing new survived the caps and nothing aged out: identical feed.
         log("No change — leaving feed untouched.")
         return 0
 
