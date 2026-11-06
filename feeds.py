@@ -37,19 +37,19 @@ SOURCES = [
         "name": "Gothamist",
         "url": "https://gothamist.com/feed",
         "category": "nyc",
-        "max_items": 8,
+        "max_items": 10,
     },
     {
         "name": "The City",
         "url": "https://www.thecity.nyc/feed/",
         "category": "nyc",
-        "max_items": 8,
+        "max_items": 10,
     },
     {
         "name": "NY1",
         "url": "https://www.ny1.com/services/contentfeed.nyc%7Call-boroughs%7Cnews.landing.rss",
         "category": "nyc",
-        "max_items": 8,
+        "max_items": 10,
     },
     {
         # Gothamist has no Harlem tag feed and no Harlem tag page any more
@@ -74,6 +74,6 @@ SOURCES = [
         "name": "Harlem World",
         "url": "https://harlemworldmagazine.com/feed/",
         "category": "harlem",
-        "max_items": 8,
+        "max_items": 10,
     },
 ]
