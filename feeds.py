@@ -76,4 +76,13 @@ SOURCES = [
         "category": "harlem",
         "max_items": 8,
     },
+    {
+        # Harlem's paper of record. WordPress, ships full content:encoded
+        # (~3-7k chars), so trust the feed rather than extracting the page.
+        "name": "Amsterdam News",
+        "url": "https://amsterdamnews.com/feed/",
+        "category": "harlem",
+        "max_items": 6,
+        "prefer_feed_native": True,
+    },
 ]

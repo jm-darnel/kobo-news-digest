@@ -107,6 +107,13 @@ def strip_emoji(text: str) -> str:
 
 
 TAG = re.compile(r"</?[a-zA-Z][^>]*(?:>|$)")  # also eats a truncated tag at EOS
+# WordPress feed furniture appended inside the summary/body text itself.
+TAIL = re.compile(
+    r"\s*(The post\s+.{0,140}?\s+appeared first on\s+[^.]{0,80}\.|"
+    r"Continue reading\s+.{0,140}?(…|\.\.\.|\.)$|"
+    r"Read more:?\s*https?://\S+\s*$)",
+    re.I | re.S,
+)
 CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f\ufffe\uffff]")
 
 
@@ -115,6 +122,7 @@ def clean_text(text: str) -> str:
         return ""
     text = html.unescape(text) if "&" in text else text
     text = TAG.sub(" ", text)          # feed summaries often carry raw/truncated <a>
+    text = TAIL.sub("", text)          # "The post … appeared first on …"
     text = CONTROL.sub("", text)       # lxml refuses XML-incompatible control chars
     text = strip_emoji(text).replace("\u00a0", " ")
     return re.sub(r"[ \t\r\f\v]+", " ", text).strip()
