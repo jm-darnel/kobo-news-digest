@@ -107,7 +107,7 @@ def strip_emoji(text: str) -> str:
 
 
 TAG = re.compile(r"</?[a-zA-Z][^>]*(?:>|$)")  # also eats a truncated tag at EOS
-CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
+CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f\ufffe\uffff]")
 
 
 def clean_text(text: str) -> str:
@@ -137,9 +137,29 @@ BOILERPLATE_START = re.compile(
 )
 MERCH = re.compile(r"(price range|add to cart|shop now|\$\s?\d+\.\d{2}\s*$)", re.I)
 
+# Mid-paragraph CTAs: the anchor above misses "… Donate to THE CITY today."
+CTA = re.compile(
+    r"""(donate\s+to\s+[^.]{0,40}today | sign\s+up\s+for\s+(their|our)\s+newsletter |
+        subscribe\s+to\s+(our|the)\s+newsletter | support\s+our\s+journalism |
+        become\s+a\s+member\s+today)""",
+    re.I | re.X,
+)
+
+# Widget/site chrome that extraction sometimes promotes to its own paragraph.
+WIDGET = {
+    "how to listen", "get notifications", "listen to this article",
+    "read more", "related", "related stories", "advertisement", "share this",
+    "share this article", "comments", "leave a comment", "sign up",
+}
+
 
 def is_boilerplate(text: str) -> bool:
+    lowered = text.lower().strip(" .:»›")
+    if lowered in WIDGET:
+        return True
     if BOILERPLATE_START.match(text):
+        return True
+    if len(text) < 400 and CTA.search(text):
         return True
     return len(text) < 140 and bool(MERCH.search(text))
 
@@ -238,6 +258,10 @@ def summary_from(paras: list[str], feed_summary: str = "", limit: int = 300) -> 
     if len(base) < 40 and paras:
         base = " ".join(paras[:2])
     base = strip_emoji(base)
+    # 1-3 sentences max, then length cap.
+    sentences = re.split(r"(?<=[.!?])\s+", base)
+    if len(sentences) > 3:
+        base = " ".join(sentences[:3]).rstrip() + "…"
     if len(base) > limit:
         cut = base[:limit].rsplit(" ", 1)[0]
         base = cut.rstrip(",.;: ") + "…"
@@ -401,8 +425,13 @@ def render_article(item: dict, paras: list[str], mode: str) -> str:
 # XML
 # --------------------------------------------------------------------------- #
 def cdata(text: str) -> str:
-    """CDATA-safe text: a literal ]]> would end the section early."""
-    return text.replace("]]>", "]]]]><![CDATA[>")
+    """Strip a literal ]]> so it can never terminate the section early.
+
+    lxml's CDATA serialization already splits on "]]>" correctly (verified by
+    round-trip test), so the text is passed through untouched. Pre-escaping it
+    here — the obvious-looking fix — double-escapes and corrupts the summary.
+    """
+    return text
 
 
 def build_xml(items: list[dict]) -> bytes:
@@ -471,11 +500,16 @@ def load_digest() -> list[dict]:
         return []
     try:
         payload = json.loads(DIGEST_PATH.read_text())
-    except json.JSONDecodeError:
+        raw_items = payload.get("items", [])
+        if not isinstance(raw_items, list):
+            raise ValueError("items is not a list")
+    except (json.JSONDecodeError, AttributeError, TypeError, ValueError):
         log("digest.json unreadable — rebuilding window")
         return []
     items = []
-    for it in payload.get("items", []):
+    for it in raw_items:
+        if not isinstance(it, dict):
+            continue
         try:
             published = datetime.fromisoformat(it["published"])
             if published.tzinfo is None:

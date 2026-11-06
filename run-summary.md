@@ -1,4 +1,4 @@
-# Digest run 2026-11-06T17:14Z
+# Digest run 2026-11-06T17:22Z
 
 40 new items — extracted 30, feed-native 9, partial 1
 
