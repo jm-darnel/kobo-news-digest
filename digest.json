@@ -2,6 +2,26 @@
  "version": 1,
  "items": [
   {
+   "key": "b6e9ce1c5192cf37",
+   "title": "Yankees news: Cody Bellinger wins Platinum Glove honors",
+   "link": "https://www.pinstripealley.com/yankees-news/214172/yankees-news-third-base-teruaki-sato-shugo-maki-scouting-report-billy-beane-brian-cashman",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/b6e9ce1c5192cf37.html",
+   "summary": "SABR: The Yankees\u2019 Cody Bellinger was already awarded his second career Gold Glove for his excellent work in left field in 2026, but now he\u2019s taken home an even higher honor. Since 2011, Rawlings has also given out one Platinum Glove per league each year to honor the best of the best. Until last\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "published": "2026-11-07T05:00:00+00:00"
+  },
+  {
+   "key": "a0ea7e96ce68a8af",
+   "title": "Person found dead with stab wounds in Queens building, NYPD says",
+   "link": "https://gothamist.com/news/person-found-dead-with-multiple-stab-wounds-in-queens-building-nypd-says",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/a0ea7e96ce68a8af.html",
+   "summary": "Police hadn't yet named and suspects or identified the victim Friday.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "published": "2026-11-07T01:34:00+00:00"
+  },
+  {
    "key": "fe697d1f59ea1f0f",
    "title": "Mariners hire Tanner Swanson away from Yankees",
    "link": "https://www.pinstripealley.com/mlb-news/214163/mariners-hire-tanner-swanson-catching-coordinator-yankees-wells-higashioka-narvaez-trevino",
@@ -142,16 +162,6 @@
    "published": "2026-11-06T14:30:12+00:00"
   },
   {
-   "key": "d31a18fcfcb91f32",
-   "title": "Skeletal remains found in backyard of West Village building, NYPD says",
-   "link": "https://gothamist.com/news/skeletal-remains-found-in-backyard-of-west-village-building-nypd-says",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/d31a18fcfcb91f32.html",
-   "summary": "Parts of a historic skeleton were found in a property adjacent to St. Luke's Lutheran Church on Christopher Street. The city medical examiner determined the remains appear to be historic, likely from the 19th century.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "published": "2026-11-06T14:29:52+00:00"
-  },
-  {
    "key": "27bad3aae5b7ce50",
    "title": "Yankees 2026 Roster Report Cards: Fernando Cruz",
    "link": "https://www.pinstripealley.com/yankees-roster/214096/yankees-2026-report-card-fernando-cruz-pitcher-right-handed-reliever",
@@ -162,14 +172,14 @@
    "published": "2026-11-06T14:00:00+00:00"
   },
   {
-   "key": "5524dd0a2da7869d",
-   "title": "Should the Yankees non-tender Luis Gil?",
-   "link": "https://www.pinstripealley.com/yankees-analysis-sabermetrics/214094/yankees-luis-gil-non-tender-candidate-bullpen-decision-rookie-of-the-year-command-velocity",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/5524dd0a2da7869d.html",
-   "summary": "In 2024, New York Yankees right-hander Luis Gil impressed with a brilliant first half and a full campaign worthy of the American League Rookie of the Year Award. At that point, the Bombers thought they had unearthed another pitching gem, controllable for multiple years on the cheap. A severe lat\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "published": "2026-11-06T12:30:00+00:00"
+   "key": "430b6c161cb5df4c",
+   "title": "Hochul does not rule out new taxes to help fund programs like universal childcare",
+   "link": "http://www.ny1.com/nyc/all-boroughs/politics/2026/11/07/hochul-does-not-rule-out-new-taxes-to-help-fund-programs-like-universal-childcare",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/430b6c161cb5df4c.html",
+   "summary": "While the governor didn\u2019t deny income tax hikes could be on the horizon, she said she\u2019s backed other tax hikes to fund key priorities in the past.",
+   "category": "nyc",
+   "source": "NY1",
+   "published": "2026-11-06T10:17:00+00:00"
   },
   {
    "key": "d8c9efe0a923f396",
@@ -182,6 +192,16 @@
    "published": "2026-11-06T10:00:00+00:00"
   },
   {
+   "key": "0e5f3a75b31bab27",
+   "title": "CUNY professor breaks down how New Yorkers voted across the five boroughs",
+   "link": "http://www.ny1.com/nyc/all-boroughs/inside-city-hall/2026/11/07/cuny-professor-breaks-down-how-new-yorkers-voted-across-the-five-boroughs",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/0e5f3a75b31bab27.html",
+   "summary": "John Mollenkopf, a professor of political science and sociology at the CUNY Graduate Center, joined \u201cInside City Hall\u201d to discuss voting trends across the city following Tuesday\u2019s election. Mollenkopf is also director of the CUNY Graduate Center\u2019s Center for Urban Research, which puts together an\u2026",
+   "category": "nyc",
+   "source": "NY1",
+   "published": "2026-11-06T08:30:00+00:00"
+  },
+  {
    "key": "3595191c4a8d28e0",
    "title": "Dems look to undo Canada tariffs, and Brooklyn blaze kills six",
    "link": "http://www.ny1.com/nyc/all-boroughs/papers/2026/11/06/in-the-papers--11-6-26",
@@ -190,6 +210,16 @@
    "category": "nyc",
    "source": "NY1",
    "published": "2026-11-06T08:28:00+00:00"
+  },
+  {
+   "key": "7288ce8390e0115f",
+   "title": "NYPD: East Harlem man, home health aide fatally shot in apartment",
+   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/07/nypd-east-harlem-man-home-health-aide-found-shot-dead-in-apartment",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/7288ce8390e0115f.html",
+   "summary": "According to officials, officers responded around 8:30 p.m. to a 911 call reporting a past assault at the Gaylord Houses.",
+   "category": "nyc",
+   "source": "NY1",
+   "published": "2026-11-06T08:20:00+00:00"
   },
   {
    "key": "ee9b005ba4a8f464",
@@ -202,6 +232,16 @@
    "published": "2026-11-06T08:04:00+00:00"
   },
   {
+   "key": "7bfb9b3b1ad2aa43",
+   "title": "Displaced Sunset Park families seek help after fatal fire",
+   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/06/displaced-sunset-park-families-seek-help-after-fatal-fire",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/7bfb9b3b1ad2aa43.html",
+   "summary": "Six people were killed in the fire Thursday morning.",
+   "category": "nyc",
+   "source": "NY1",
+   "published": "2026-11-06T07:11:00+00:00"
+  },
+  {
    "key": "8c5d48fde67ee28b",
    "title": "After the blue wave: What\u2019s next for New York?",
    "link": "http://www.ny1.com/nyc/all-boroughs/off-topic-on-politics/2026/11/06/the-blue-wave-hit-new-york",
@@ -212,36 +252,6 @@
    "published": "2026-11-06T07:00:00+00:00"
   },
   {
-   "key": "f77ee755d07f7a99",
-   "title": "Frank DiLella's theater picks: 'Wanted,' 'Midnight' and more",
-   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/06/frank-dilella-theater-picks-wanted-midnight-and-more",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/f77ee755d07f7a99.html",
-   "summary": "Frank DiLella curated a list of \"must-see\" shows this week.",
-   "category": "nyc",
-   "source": "NY1",
-   "published": "2026-11-06T07:00:00+00:00"
-  },
-  {
-   "key": "3b96c9155379c924",
-   "title": "The Great Borough Bake-Off returns for fifth year",
-   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/05/the-great-borough-bake-off-returns-for-th-year",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/3b96c9155379c924.html",
-   "summary": "Almost two dozen landmarks are made of gingerbread at the Museum of the City of New York.",
-   "category": "nyc",
-   "source": "NY1",
-   "published": "2026-11-06T06:50:00+00:00"
-  },
-  {
-   "key": "52a95cd7f453ca27",
-   "title": "Historic Democratic majority brings new challenges in Albany",
-   "link": "http://www.ny1.com/nyc/all-boroughs/politics/2026/11/06/historic-democratic-majority-brings-new-challenges-in-albany",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/52a95cd7f453ca27.html",
-   "summary": "Democrats flipped at least nine legislative districts, securing veto-proof supermajorities in both the state Senate and Assembly.",
-   "category": "nyc",
-   "source": "NY1",
-   "published": "2026-11-06T06:15:00+00:00"
-  },
-  {
    "key": "35f84cd313333691",
    "title": "Tarik Skubal Rumors: Mets, Dodgers, Cubs",
    "link": "https://www.mlbtraderumors.com/2026/11/tarik-skubal-rumors-mets-dodgers-cubs.html",
@@ -250,16 +260,6 @@
    "category": "yankees",
    "source": "MLB Trade Rumors (Yankees)",
    "published": "2026-11-06T05:43:31+00:00"
-  },
-  {
-   "key": "3cd9e3334dd635a5",
-   "title": "Fatal Brooklyn fire renews concerns over e-bike batteries",
-   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/06/fatal-brooklyn-fire-renews-concerns-over-e-bike-batteries",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/3cd9e3334dd635a5.html",
-   "summary": "Investigators are working to determine whether lithium-ion batteries played a role in the early Friday fire in Sunset Park.",
-   "category": "nyc",
-   "source": "NY1",
-   "published": "2026-11-06T05:30:00+00:00"
   },
   {
    "key": "c9e4db905205fc3a",
