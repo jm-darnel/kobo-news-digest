@@ -63,7 +63,7 @@ SOURCES = [
         "url": (
             "https://api-prod.gothamist.com/api/v2/pages/"
             "?type=news.ArticlePage&search=harlem&limit=60"
-            "&order=-first_published_at&fields=title,first_published_at"
+            "&order=-first_published_at&fields=title,first_published_at,related_authors"
         ),
         "article_url": "https://gothamist.com/news/{slug}/",
         "title_match": "harlem",

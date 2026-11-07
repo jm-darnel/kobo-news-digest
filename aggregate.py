@@ -326,6 +326,7 @@ def rss_candidates(src: dict, sess: requests.Session) -> list[dict]:
             "source": src["name"],
             "category": src.get("category", ""),
             "title": clean_text(entry.get("title") or "Untitled"),
+            "author": clean_text(entry.get("author") or "").removeprefix("By ").strip(),
             "link": link,
             "published": parse_date(entry) or datetime.now(timezone.utc),
             "feed_content": feed_content,
@@ -369,10 +370,18 @@ def json_candidates(src: dict, sess: requests.Session) -> list[dict]:
                              else parsed_stamp.replace(tzinfo=timezone.utc))
             except ValueError:
                 log(f"    unparseable date on {page.get('title', '')[:50]}: {stamp}")
+        authors = page.get("related_authors") or []
+        author = ""
+        if authors and isinstance(authors[0], dict):
+            first = authors[0]
+            author = " ".join(
+                p for p in (first.get("first_name"), first.get("last_name")) if p
+            ).strip()
         out.append({
             "source": src["name"],
             "category": src.get("category", ""),
             "title": clean_text(page.get("title") or "Untitled"),
+            "author": clean_text(author),
             "link": link,
             "published": published,
             "feed_content": "",
@@ -416,6 +425,29 @@ def extract(item: dict, sess: requests.Session) -> tuple[list[str], str]:
     return [f"[partial — read online: {item['link']}]", summary], "partial"
 
 
+def normalize_author(author: str, source: str) -> str:
+    """Title-case shouty CAPS bylines; drop the author when it is the outlet."""
+    author = (author or "").strip()
+    if author.isupper() and len(author) > 3:
+        author = author.title()
+    if author.lower().replace(" the ", " ") == (source or "").lower():
+        return ""
+    if author.lower() in {source.lower(), source.lower() + " magazine"}:
+        return ""
+    return author
+
+
+def byline(item: dict) -> str:
+    """Byline line: By {author} · {publication} · November 6, 2026. Author optional."""
+    published = item.get("published")
+    date_text = f"{published:%B} {published.day}, {published.year}" if published else ""
+    source = (item.get("source") or "").strip()
+    author = normalize_author(item.get("author", ""), source)
+    head = f"By {author}" if author else source
+    parts = [p for p in (head, source if author else "", date_text) if p]
+    return " · ".join(parts)
+
+
 def render_article(item: dict, paras: list[str], mode: str) -> str:
     title = html.escape(item["title"])
     body = []
@@ -431,6 +463,7 @@ def render_article(item: dict, paras: list[str], mode: str) -> str:
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
         f"<title>{title}</title>\n</head>\n<body>\n"
         f"  <h1>{title}</h1>\n"
+        f"  <p><em>{html.escape(byline(item))}</em></p>\n"
         + "\n".join(body)
         + "\n"
         + attribution
@@ -543,7 +576,7 @@ def load_digest() -> list[dict]:
 
 
 def save_digest(items: list[dict]) -> None:
-    keep = ("key", "title", "link", "page_url", "summary", "category", "source")
+    keep = ("key", "title", "link", "page_url", "summary", "category", "source", "author")
     payload = {
         "version": 1,
         "items": [
