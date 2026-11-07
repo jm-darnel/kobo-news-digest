@@ -1,14 +1,14 @@
-# Digest run 2026-11-06T18:17Z
+# Digest run 2026-11-07T00:06Z
 
-40 new items, 40 in window — extracted 28, feed-native 11, partial 1
+5 new items, 40 in window — extracted 5, feed-native 10
 
 | source | new | feed |
 |---|---|---|
-| Pinstripe Alley | 6 | 10 in feed |
-| MLB Trade Rumors (Yankees) | 6 | 15 in feed |
-| Gothamist | 8 | 40 in feed |
-| The City | 8 | 10 in feed |
-| NY1 | 8 | 100 in feed |
+| Pinstripe Alley | 2 | 10 in feed |
+| MLB Trade Rumors (Yankees) | 4 | 15 in feed |
+| Gothamist | 2 | 40 in feed |
+| The City | 3 | 10 in feed |
+| NY1 | 0 | 100 in feed |
 | Gothamist (Harlem) | 0 | 5 in feed |
-| Harlem World | 8 | 14 in feed |
-| Amsterdam News | 6 | 10 in feed |
+| Harlem World | 1 | 14 in feed |
+| Amsterdam News | 3 | 10 in feed |
