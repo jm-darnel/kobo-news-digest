@@ -2,6 +2,39 @@
  "version": 1,
  "items": [
   {
+   "key": "ffe0c7f2031aab49",
+   "title": "Yankees news: New York leads race for 21-year-old Japanese pitcher",
+   "link": "https://www.pinstripealley.com/yankees-news/214291/yankees-mlb-news-hironari-hiroike-japanese-prospect-biggest-offseason-need-infield-bat-upgrade-austin-wells-catching-upgrades-david-bednar",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ffe0c7f2031aab49.html",
+   "summary": "Sports Hochi: The Yankees are reportedly setting their sights on 21-year-old Japanese right-hander Hironari Hiroike, who pitched at Keio University in Tokyo. The site called the Bombers \u2018the most likely destination\u2019 for the young and talented hurler, who had a 2.88 ERA and a strikeout rate of 11.52\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Andr\u00e9s Ch\u00e1vez",
+   "published": "2026-11-09T05:00:00+00:00"
+  },
+  {
+   "key": "44eeb7af3aae4a3f",
+   "title": "The Yankees Birthday Series, presented by Pinstripe Alley",
+   "link": "https://www.pinstripealley.com/yankees-history-trivia/172748/yankees-history-birthdays-famous-players-born-on-this-day",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/44eeb7af3aae4a3f.html",
+   "summary": "During my tenure at Pinstripe Alley\u2014hell, during my entire time as a baseball fan\u2014I\u2019ve never been shy about delving into the team\u2019s history and exploring the lives of its long roll call of players, both incredible and regrettable. We provide plenty of other coverage on the current-day activities of\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Andrew Mearns",
+   "published": "2026-11-08T23:34:10+00:00"
+  },
+  {
+   "key": "fe46c00021b46683",
+   "title": "Brooklyn jogger killed in stabbing saves 4 lives through organ donations",
+   "link": "https://gothamist.com/news/brooklyn-jogger-killed-in-stabbing-saves-4-lives-through-organ-donations",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/fe46c00021b46683.html",
+   "summary": "Katie Suarez, foreground, was fatally stabbed while jogging along the Brooklyn waterfront. Katie Suarez, 28, donated five organs after she was fatally stabbed while jogging along the Brooklyn waterfront. A suspect has pleaded not guilty to murder.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Catalina Gonella",
+   "published": "2026-11-08T21:25:44+00:00"
+  },
+  {
    "key": "33b86fa7ed9a7da6",
    "title": "New York\u2019s House delegation will include 20 Democrats and six Republicans",
    "link": "https://gothamist.com/news/new-yorks-house-delegation-will-include-20-democrats-and-six-republicans",
@@ -123,17 +156,6 @@
    "published": "2026-11-07T21:49:00+00:00"
   },
   {
-   "key": "48558f9c5ee4b00a",
-   "title": "Which Yankees deserve protection from the Rule 5 Draft?",
-   "link": "https://www.pinstripealley.com/yankees-analysis-sabermetrics/214179/yankees-mlb-offseason-lockout-rule-5-draft-40-man-roster-carlos-lagrange-roderick-arias",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/48558f9c5ee4b00a.html",
-   "summary": "Despite the speculation of a frenzied period to sign players before the expiry of the CBA at 11:59 pm on December 1st, it\u2019s been all quiet on the free agent front around the league. Nary a peep has been heard from the Yankees front office as to players they are potentially pursuing, making for a [\u2026]",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Peter Brody",
-   "published": "2026-11-07T21:00:00+00:00"
-  },
-  {
    "key": "f26013fffe605c82",
    "title": "NYPD arrests and charges city schools employee in murder of Brooklyn jogger",
    "link": "https://gothamist.com/news/nypd-arrests-and-charges-city-schools-employee-man-in-murder-of-brooklyn-jogger",
@@ -145,17 +167,6 @@
    "published": "2026-11-07T19:07:00+00:00"
   },
   {
-   "key": "2b59f0bb86acee7b",
-   "title": "Yankees Arizona Fall League Week 5 Recap",
-   "link": "https://www.pinstripealley.com/yankees-prospects/214204/yankees-arizona-fall-league-week-5-recap-dax-kilby-core-jackson-kyle-west-chris-veach",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/2b59f0bb86acee7b.html",
-   "summary": "It was a quiet week down in the desert as the Arizona Fall League starts to wind down. There\u2019s only about a week left of games after this, but the biggest news from this week comes with a game that\u2019s coming on Sunday, as Dax Kilby and Chris Veach have been named to the Fall [\u2026]",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Michael Zeno",
-   "published": "2026-11-07T18:00:00+00:00"
-  },
-  {
    "key": "cacd836d22a51f0c",
    "title": "Work is underway to replace deteriorating Newark Bay Bridge, a major NY-NJ route",
    "link": "https://gothamist.com/news/work-is-underway-to-replace-deteriorating-newark-bay-bridge-a-major-ny-nj-route",
@@ -165,17 +176,6 @@
    "source": "Gothamist",
    "author": "Michael Sol Warren",
    "published": "2026-11-07T17:30:49+00:00"
-  },
-  {
-   "key": "3eeace79affe8adf",
-   "title": "Quest Diagnostics pays $13M to settle kickback allegations involving NY Giants tickets",
-   "link": "https://gothamist.com/news/quest-diagnostics-pays-13m-to-settle-kickback-allegations-involving-ny-giants-tickets",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/3eeace79affe8adf.html",
-   "summary": "Quest Diagnostics paid over $13 million to resolve allegations that it provided health care providers and executives illegal kickbacks in the form of New York Giants tickets and access to exclusive events, according to the U.S. Attorney\u2019s Office of New Jersey. The U.S.\u2026",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Kaya Laterman",
-   "published": "2026-11-07T15:21:15+00:00"
   },
   {
    "key": "c97e264751bf0ce5",
