@@ -2,6 +2,83 @@
  "version": 1,
  "items": [
   {
+   "key": "07df9eadcab83b19",
+   "title": "Manhattan's Canal Street is getting a face-lift, but it'll take a while",
+   "link": "https://gothamist.com/news/manhattans-canal-street-is-getting-a-face-lift-but-itll-take-a-while",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/07df9eadcab83b19.html",
+   "summary": "Plans for Canal Street include widening the sidewalk, essentially creating a pedestrian walkway, and adding planters to protect pedestrians from the road. 'We would have loved to do more,' transportation official says.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Willow Higgins",
+   "published": "2026-11-10T11:30:55+00:00"
+  },
+  {
+   "key": "087c1e5df7037c58",
+   "title": "Today on Pinstripe Alley \u2013 11/10/26",
+   "link": "https://www.pinstripealley.com/pinstripe-alley-discussions/214331/yankees-mlb-pinstripe-alley-11-10-26",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/087c1e5df7037c58.html",
+   "summary": "As we awake today, we now three weeks remaining with a Major League Collective Bargaining Agreement in place, 21 days before we are faced with the inevitable owner-imposed lockout. As we inch toward the winter, we do have a few things to keep us occupied this week, as Cy Young winners will be\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Jake Devin",
+   "published": "2026-11-10T11:30:00+00:00"
+  },
+  {
+   "key": "87e7c944c31ab9c9",
+   "title": "Rent-stabilized buildings hit auction block, despite Mamdani\u2019s efforts to intervene",
+   "link": "https://gothamist.com/news/emerald",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/87e7c944c31ab9c9.html",
+   "summary": "Mayor Zohran Mamdani City officials tried to steer the sale to an affordable housing developer, but the attempt failed.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "David Brand",
+   "published": "2026-11-10T11:00:58+00:00"
+  },
+  {
+   "key": "720b2edf73686b27",
+   "title": "Union Hits Local News Giant With Federal Labor Complaint After Reporter Is Fired",
+   "link": "https://www.thecityreporter.nyc/2026/11/10/schneps-media-qns-union-federal-complaint-nlrb/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/720b2edf73686b27.html",
+   "summary": "Renee DeLorenzo, who most recently covered business features and cultural issues at local news site QNS, was dismissed from her job on Oct. 29, the same day that Schneps Media acquired a competing Queens paper. Schneps Union, which represents editorial staff at amNewYork and other neighborhood\u2026",
+   "category": "nyc",
+   "source": "The City",
+   "author": "Claudia Irizarry Aponte",
+   "published": "2026-11-10T10:00:00+00:00"
+  },
+  {
+   "key": "c5aa6d55a366b934",
+   "title": "Ramones music lives on through Marky Ramone's live shows",
+   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/09/hey-ho-lets-go-with-marky-ramone",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/c5aa6d55a366b934.html",
+   "summary": "It's a familiar drumbeat to fans of Ramones: the opening to their classic tune \"Rock and Roll High School\" from the 1979 film of the same name. \"There's no talking, it's just 1,2,3,4 into each song, and kids sing along, they sing along to it which is great,\" said Ramone, who joined the band in 1978\u2026",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Roger Clark",
+   "published": "2026-11-10T06:50:00+00:00"
+  },
+  {
+   "key": "53a0ab584240a1a1",
+   "title": "1 in 8 NYC public school students were homeless last year",
+   "link": "http://www.ny1.com/nyc/all-boroughs/education/2026/11/09/1-in--nyc-public-school-students-was-homeless-last-year",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/53a0ab584240a1a1.html",
+   "summary": "One in eight New York City public school students was homeless at some point during the last school year. That amounts to 138,000 students \u2014 a figure that is down from about 154,000 the year before.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Jillian Jorgensen",
+   "published": "2026-11-10T06:00:00+00:00"
+  },
+  {
+   "key": "f6b1d0298c1f5d36",
+   "title": "Yankees news: Forecasting awards and the off-season",
+   "link": "https://www.pinstripealley.com/yankees-news/214363/yankees-news-cam-schlittler-cy-young-closer-david-bednar-third-base-offseason",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/f6b1d0298c1f5d36.html",
+   "summary": "ESPN | Bradford Doolittle: It\u2019s awards week! For Yankees fans, Wednesday is the night to pay attention as that\u2019s when the AL and NY Cy Young Award winners will be announced. There shouldn\u2019t really be much suspense for the Cy Young recipient in the American League.\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Kevin Winterhalt",
+   "published": "2026-11-10T05:00:00+00:00"
+  },
+  {
    "key": "c57597ad428b0457",
    "title": "Man charged with murder after woman found stabbed to death in Queens, NYPD says",
    "link": "https://gothamist.com/news/man-charged-with-murder-after-woman-found-stabbed-to-death-in-queens-nypd-says",
@@ -134,17 +211,6 @@
    "published": "2026-11-09T21:07:45+00:00"
   },
   {
-   "key": "82f55662ab4eddb2",
-   "title": "NY civil liberties groups push for 48-hour limit on police retaining Flock camera data",
-   "link": "https://gothamist.com/news/ny-civil-liberties-groups-push-for-48-hour-limit-on-police-retaining-flock-camera-data",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/82f55662ab4eddb2.html",
-   "summary": "A Flock Safety camera is seen on the corner of River Street and Congress Street in Troy, New York. Lawmakers are weighing measures to crack down on Flock and other automatic license-plate readers.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Jon Campbell",
-   "published": "2026-11-09T20:54:00+00:00"
-  },
-  {
    "key": "f9e178f4803a5b01",
    "title": "Veterans & Military Personnel Ride Free on NY Waterway Ferries This Veterans Day",
    "link": "https://www.harlemworldmagazine.com/veterans-military-personnel-ride-free-on-ny-waterway-ferries-this-veterans-day/",
@@ -187,17 +253,6 @@
    "source": "Harlem World",
    "author": "Harlem World Magazine",
    "published": "2026-11-09T18:40:17+00:00"
-  },
-  {
-   "key": "105b737a122c3ffd",
-   "title": "Man denied stabbing Brooklyn jogger but described being covered in blood, complaint says",
-   "link": "https://gothamist.com/news/man-denied-stabbing-brooklyn-jogger-but-described-being-covered-in-blood-complaint-says",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/105b737a122c3ffd.html",
-   "summary": "Katie Suarez Sayed Mohassib told police he went to the running trail with a knife because \u201cpeople were going to come to kill his family,\u201d according to a criminal complaint.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Brittany Kriegstein",
-   "published": "2026-11-09T18:10:31+00:00"
   },
   {
    "key": "2943c2f0857fdb32",
@@ -277,6 +332,17 @@
    "published": "2026-11-09T09:59:00+00:00"
   },
   {
+   "key": "684dc52131014e7b",
+   "title": "Veterans Day Parade returns on Wednesday",
+   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/10/veterans-day-parade-returns-on-wednesday",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/684dc52131014e7b.html",
+   "summary": "Thousands will march down Fifth Avenue for the annual Veterans Day Parade, and celebrations will continue at the Intrepid Museum.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Cheryl Wills",
+   "published": "2026-11-09T09:43:00+00:00"
+  },
+  {
    "key": "211f5f026e6a5725",
    "title": "80-year-old man dies in Hamilton Heights fire, FDNY says",
    "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/10/0-year-old-man-dies-in-hamilton-heights-fire-fdny-says",
@@ -319,61 +385,6 @@
    "source": "NY1",
    "author": "Spectrum News NY1",
    "published": "2026-11-09T08:15:00+00:00"
-  },
-  {
-   "key": "5d36283ef20136f3",
-   "title": "Newly elected New York House members attend orientation in Washington",
-   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/10/newly-elected-new-york-house-members-attend-orientation-in-washington",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/5d36283ef20136f3.html",
-   "summary": "Six of the more than 100 first term-members are from New York.",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Shannon Ryan",
-   "published": "2026-11-09T07:23:00+00:00"
-  },
-  {
-   "key": "c26c59d67e3832f9",
-   "title": "NYPD reports record lows in shootings, murders during first 10 months of 2026",
-   "link": "http://www.ny1.com/nyc/all-boroughs/public-safety/2026/11/09/nypd-october-2026-crime-statistics-murders-shootings-record-lows",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/c26c59d67e3832f9.html",
-   "summary": "Police Commissioner Jessica Tisch credited \u201ctargeted, data-driven policing\u201d for helping to reduce crime.",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Spectrum News NY1",
-   "published": "2026-11-09T07:15:00+00:00"
-  },
-  {
-   "key": "dc6aa28a198f7c4b",
-   "title": "Work from legendary artists on view for free at Christie's",
-   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/06/fall-marquee-week-at-christies",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/dc6aa28a198f7c4b.html",
-   "summary": "Exhibition of work from legendary artists on view at Christie's ahead of big auctions.",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Roger Clark",
-   "published": "2026-11-09T06:50:00+00:00"
-  },
-  {
-   "key": "ffe0c7f2031aab49",
-   "title": "Yankees news: New York leads race for 21-year-old Japanese pitcher",
-   "link": "https://www.pinstripealley.com/yankees-news/214291/yankees-mlb-news-hironari-hiroike-japanese-prospect-biggest-offseason-need-infield-bat-upgrade-austin-wells-catching-upgrades-david-bednar",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ffe0c7f2031aab49.html",
-   "summary": "Sports Hochi: The Yankees are reportedly setting their sights on 21-year-old Japanese right-hander Hironari Hiroike, who pitched at Keio University in Tokyo. The site called the Bombers \u2018the most likely destination\u2019 for the young and talented hurler, who had a 2.88 ERA and a strikeout rate of 11.52\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Andr\u00e9s Ch\u00e1vez",
-   "published": "2026-11-09T05:00:00+00:00"
-  },
-  {
-   "key": "44eeb7af3aae4a3f",
-   "title": "The Yankees Birthday Series, presented by Pinstripe Alley",
-   "link": "https://www.pinstripealley.com/yankees-history-trivia/172748/yankees-history-birthdays-famous-players-born-on-this-day",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/44eeb7af3aae4a3f.html",
-   "summary": "During my tenure at Pinstripe Alley\u2014hell, during my entire time as a baseball fan\u2014I\u2019ve never been shy about delving into the team\u2019s history and exploring the lives of its long roll call of players, both incredible and regrettable. We provide plenty of other coverage on the current-day activities of\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Andrew Mearns",
-   "published": "2026-11-08T23:34:10+00:00"
   },
   {
    "key": "caaf0c4fb6ba0ab0",
@@ -429,17 +440,6 @@
    "source": "The City",
    "author": "April Xu",
    "published": "2026-11-05T19:35:06+00:00"
-  },
-  {
-   "key": "9ffffbbb23e599d8",
-   "title": "After the \u2018Blue Tsunami\u2019: Dems Await Mamdani and Hochul in Puerto Rico as Taxes Take Center Stage",
-   "link": "https://www.thecityreporter.nyc/2026/11/05/somos-democrats-puerto-rico-hochul-mamdani-dsa-taxes/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/9ffffbbb23e599d8.html",
-   "summary": "SAN JUAN, Puerto Rico \u2014 The \u201cblue tsunami\u201d celebrations swelled onto the beaches of San Juan on Wednesday, less than a day after Democrats regained control of the House and Senate and Gov. Kathy Hochul easily won reelection. The annual SOMOS convention, held by the New York Democrats in Puerto Rico\u2026",
-   "category": "nyc",
-   "source": "The City",
-   "author": "Claudia Irizarry Aponte",
-   "published": "2026-11-05T19:13:08+00:00"
   }
  ]
 }
