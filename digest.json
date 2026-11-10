@@ -2,15 +2,246 @@
  "version": 1,
  "items": [
   {
-   "key": "07df9eadcab83b19",
-   "title": "Manhattan's Canal Street is getting a face-lift, but it'll take a while",
-   "link": "https://gothamist.com/news/manhattans-canal-street-is-getting-a-face-lift-but-itll-take-a-while",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/07df9eadcab83b19.html",
-   "summary": "Plans for Canal Street include widening the sidewalk, essentially creating a pedestrian walkway, and adding planters to protect pedestrians from the road. 'We would have loved to do more,' transportation official says.",
+   "key": "2ef158b8684f1b30",
+   "title": "NYC Student Homelessness Declines but Remains Stubbornly High, Report Finds",
+   "link": "https://www.thecityreporter.nyc/2026/11/10/family-shelters-schools-education-chronic-absense-couch-surfing/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/2ef158b8684f1b30.html",
+   "summary": "One in eight New York City public school students experienced homelessness last school year, according to a report released Tuesday by the nonprofit Advocates for Children. That meant more than 138,000 children lived in temporary housing, whether in shelters or \u201cdoubled up\u201d with family or friends\u2026",
+   "category": "nyc",
+   "source": "The City",
+   "author": "Amy Zimmer, Chalkbeat",
+   "published": "2026-11-10T21:39:09+00:00"
+  },
+  {
+   "key": "175c1235b610e7d9",
+   "title": "NYC bars and restaurants say they're struggling and may raise prices",
+   "link": "https://gothamist.com/news/nyc-bars-and-restaurants-say-theyre-struggling-and-may-raise-prices",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/175c1235b610e7d9.html",
+   "summary": "In a new survey, many New York City bars and restaurants say they're struggling to keep up with increased costs. Many establishments also said in a survey they're considering reducing their workforce.",
    "category": "nyc",
    "source": "Gothamist",
-   "author": "Willow Higgins",
-   "published": "2026-11-10T11:30:55+00:00"
+   "author": "Catalina Gonella",
+   "published": "2026-11-10T21:38:31+00:00"
+  },
+  {
+   "key": "f9c77872db109248",
+   "title": "Jersey City mayor names new public safety director, police chief",
+   "link": "https://gothamist.com/news/jersey-city-mayor-names-new-public-safety-director-police-chief",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/f9c77872db109248.html",
+   "summary": "Jocelyn Roldan, to the right of Mayor James Solomon, will be Jersey City's first Latina public safety director. Acting Public Safety Director Anthony Ambrose will step down.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Michael Sol Warren",
+   "published": "2026-11-10T21:36:33+00:00"
+  },
+  {
+   "key": "fe4d51184869aef2",
+   "title": "Gov. Hochul keeps the door open to redrawing New York\u2019s congressional map",
+   "link": "https://gothamist.com/news/gov-hochul-keeps-the-door-open-to-redrawing-new-yorks-congressional-map",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/fe4d51184869aef2.html",
+   "summary": "Gov. Kathy Hochul said she remains open to a constitutional amendment that would clear the way for Democrats to redraw New York\u2019s congressional districts as soon as 2028. But Hochul also didn\u2019t commit to moving ahead with the plan, which was first put into motion last year as Republicans in Texas\u2026",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Jon Campbell",
+   "published": "2026-11-10T21:29:39+00:00"
+  },
+  {
+   "key": "d807d9158329a757",
+   "title": "Rikers detainee's death is at least the 9th in corrections department custody this year",
+   "link": "https://gothamist.com/news/rikers-detainees-death-is-at-least-the-9th-in-corrections-department-custody-this-year",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/d807d9158329a757.html",
+   "summary": "A 36-year-old man died on Rikers Island early Tuesday, according to the city\u2019s Department of Correction. A correction officer found the man in his bed at the Robert N. Davoren Center, according to the department.\u2026",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Ryan Kost",
+   "published": "2026-11-10T20:58:31+00:00"
+  },
+  {
+   "key": "4dbf0e6a4532b4bc",
+   "title": "Study links ADHD to NYC\u2019s deadly subway surfing trend",
+   "link": "https://gothamist.com/news/study-links-adhd-to-nycs-deadly-subway-surfing-trend",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/4dbf0e6a4532b4bc.html",
+   "summary": "At least 12 people have died riding on the outside of subway cars since the start of 2024. Researchers found 60% of subway surfers they surveyed were diagnosed with ADHD.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Ramsey Khalifeh, Stephen Nessen",
+   "published": "2026-11-10T20:14:40+00:00"
+  },
+  {
+   "key": "dab1cf04f3d7ff70",
+   "title": "Presenting the 2026 Yankees Roster Report Cards",
+   "link": "https://www.pinstripealley.com/yankees-roster/212499/yankees-season-2026-review-report-cards-mlb",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/dab1cf04f3d7ff70.html",
+   "summary": "Now that we are steadily moving into the offseason with the 2026 Yankees\u2019 disappointing ALDS loss to the Rays thankfully growing more distant to the present day, it\u2019s time for Pinstripe Alley\u2019s very own Roster Report Card series, where our staff evaluates and assigns grades to the most relevant\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Pinstripe Alley Staff",
+   "published": "2026-11-10T19:35:42+00:00"
+  },
+  {
+   "key": "9fb1b5fe6f6a936b",
+   "title": "Central Park rape suspect taken into custody at Miami Burger King, NYPD says",
+   "link": "https://gothamist.com/news/central-park-rape-suspect-taken-into-custody-at-miami-burger-king-nypd-says",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/9fb1b5fe6f6a936b.html",
+   "summary": "A man accused of raping a woman in Central Park last month was taken into custody Tuesday, police said. Police say Dereck Rivera-Deleon will also be charged in two earlier rapes in the park, in 2021 and 2023.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Charles Lane",
+   "published": "2026-11-10T19:33:00+00:00"
+  },
+  {
+   "key": "6b954f216360a729",
+   "title": "Man indicted in stabbing murder of Brooklyn runner Katie Suarez",
+   "link": "https://gothamist.com/news/man-indicted-in-stabbing-murder-of-brooklyn-runner-katie-suarez",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/6b954f216360a729.html",
+   "summary": "Katie Suarez, foreground, was fatally stabbed while jogging along the Brooklyn waterfront. Prosecutors say Sayed Mohassib, 27, killed Suarez on Oct. 30 along a waterfront running path in Bath Beach.\u2026",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Ben Feuerherd",
+   "published": "2026-11-10T19:31:00+00:00"
+  },
+  {
+   "key": "c69c7072b3545c28",
+   "title": "Yankees to promote Aaron Gershenfeld to MLB coaching staff",
+   "link": "https://www.pinstripealley.com/yankees-news/214397/yankees-new-catching-coach-aaron-gershenfeld-promotion-coaching-staff-catcher-tanner-swanson",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/c69c7072b3545c28.html",
+   "summary": "For every action, there is a reaction. After losing Tanner Swanson, who essentially left for a promotion to be the bench coach of the Seattle Mariners\u2014signing up for the staff around first-year manager Jason Kanzler\u2014the Yankees are opting for an in-house approach in promoting Aaron Gershenfeld\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Estev\u00e3o Maximo",
+   "published": "2026-11-10T19:09:54+00:00"
+  },
+  {
+   "key": "ca5640336bece92d",
+   "title": "A Buried Secret Ignites A Reckoning In \u201cReparations\u201d At Harlem Stage",
+   "link": "https://www.harlemworldmagazine.com/a-buried-secret-ignites-a-reckoning-in-reparations-at-harlem-stage/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ca5640336bece92d.html",
+   "summary": "Harlem Stage presents James Sheldon\u2019s two-time Best Play Award-winning drama, Reparations, in partnership with The Billie Holiday Theatre, directed by Harlem Stage CEO & Artistic Director Indira Etwaroo. A night of passion between a White book editor and a younger Black writer takes a dangerous\u2026",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-10T18:41:42+00:00"
+  },
+  {
+   "key": "ec51032b3a0b2dac",
+   "title": "Ninth Detainee Dies on Rikers Island So Far This Year",
+   "link": "https://www.thecityreporter.nyc/2026/11/10/new-rikers-island-death-nyc-jails/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ec51032b3a0b2dac.html",
+   "summary": "A 36-year-old Rikers Island detainee awaiting trial on an attempted murder charge was found dead in his bed Tuesday morning, marking the ninth death in city jail custody so far this year, The City Reporter has learned. Cesar Gabriel Medero Curet was arrested March 7 after allegedly punching a\u2026",
+   "category": "nyc",
+   "source": "The City",
+   "author": "Reuven Blau",
+   "published": "2026-11-10T18:41:07+00:00"
+  },
+  {
+   "key": "4829df18ab2dc33d",
+   "title": "The Group Trip Is Four Hours From JFK: Planning A Punta Cana Villa For 14",
+   "link": "https://www.harlemworldmagazine.com/the-group-trip-is-four-hours-from-jfk-planning-a-punta-cana-villa-for-14/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/4829df18ab2dc33d.html",
+   "summary": "Haute Retreats, the luxury villa and concierge company, books a steady run of group trips to the Dominican Republic: milestone birthdays, bachelor weekends, families bringing three generations under one roof. Among the more than 80 Haute Retreats Punta Cana villas, the big houses, with six to nine\u2026",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-10T17:58:21+00:00"
+  },
+  {
+   "key": "01ea1ea365d239b7",
+   "title": "Choosing A Novilla Full-Size Mattress When Floor Space Is Limited",
+   "link": "https://www.harlemworldmagazine.com/choosing-a-novilla-full-size-mattress-when-floor-space-is-limited/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/01ea1ea365d239b7.html",
+   "summary": "A small bedroom can feel comfortable and organized when the furniture fits the room rather than competing for space. For teenagers, single adults, and people living in studio apartments, a full mattress can offer a useful middle ground between a twin and a queen. Its width provides more room for\u2026",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-10T17:34:22+00:00"
+  },
+  {
+   "key": "6b4580f2aad35ca8",
+   "title": "Love Health Magnesium Glycinate: A Closer Look At Mineral Quality And Daily Support",
+   "link": "https://www.harlemworldmagazine.com/love-health-magnesium-glycinate-a-closer-look-at-mineral-quality-and-daily-support/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/6b4580f2aad35ca8.html",
+   "summary": "Choosing a magnesium supplement can feel confusing. Bottles display different strengths, unfamiliar ingredient names and promises about everything from sleep to muscle recovery. Understanding what those details mean makes it easier to choose a product that fits your needs.\u2026",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-10T17:22:18+00:00"
+  },
+  {
+   "key": "cf340611b1139790",
+   "title": "New York\u2019s Cannabis Regulators Take The Policy Conversation To SOMOS 2026",
+   "link": "https://www.harlemworldmagazine.com/new-yorks-cannabis-regulators-take-the-policy-conversation-to-somos-2026/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/cf340611b1139790.html",
+   "summary": "Moderated by OCM Chief of Staff Shirley Paul, Esq., the discussion featured OCM Executive Director John Kagia; New York State Senator Jeremy Cooney; Anthony Gonzalez, CAURD licensee, Dynasty Commodities; and Carlos Naudon, President and CEO of Ponce Bank. Never miss new stories in Harlem",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-10T17:14:21+00:00"
+  },
+  {
+   "key": "eef3b9a22e23847d",
+   "title": "NYC, They\u2019re Back! Join The Daddy Victory Club For Their Next Daddy & Me Walk In Harlem",
+   "link": "https://www.harlemworldmagazine.com/nyc-theyre-back-join-the-daddy-victory-club-for-their-next-daddy-me-walk-in-harlem/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/eef3b9a22e23847d.html",
+   "summary": "Hello Dads and Families, Harlem, we\u2019re coming back! Following our first Daddy & Me Walk in October, Daddy Victory Club is excited to return to Harlem for another morning of fatherhood, family, and community!",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-10T16:37:18+00:00"
+  },
+  {
+   "key": "fda24fd179da4485",
+   "title": "Yankees Birthday of the Day: Jack Clark",
+   "link": "https://www.pinstripealley.com/yankees-history-trivia/214352/yankees-history-jack-clark-birthday-november-10-free-agency-left-field",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/fda24fd179da4485.html",
+   "summary": "There is no worse time to hit free agency than while major league owners are colluding to hold down player salaries. And that\u2019s awful luck. Because normally, there is no better time to hit free agency than after the best season of your life.\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Kevin Winterhalt",
+   "published": "2026-11-10T16:30:00+00:00"
+  },
+  {
+   "key": "6b27c31ede06796b",
+   "title": "It's cold in New York. Soup season in the city has begun.",
+   "link": "https://gothamist.com/food/its-cold-in-new-york-soup-season-in-the-city-has-begun",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/6b27c31ede06796b.html",
+   "summary": "10 diverse bowls across NYC restaurants.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Robert Sietsema",
+   "published": "2026-11-10T16:01:01+00:00"
+  },
+  {
+   "key": "320e15a4e8b1d72f",
+   "title": "Yankees 2026 Roster Report Cards: Camilo Doval",
+   "link": "https://www.pinstripealley.com/yankees-roster/214339/yankees-2026-roster-report-cards-camilo-doval-reliever-bullpen-pitcher-trade-pirates-giants",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/320e15a4e8b1d72f.html",
+   "summary": "At the 2025 trade deadline, the bullpen was one very obvious spot for the Yankees to upgrade. Well, the team\u2019s front office certainly tried, making a few trades to bring in pieces to stabilize the relief corps. However, flash forward to a season plus after that trade deadline, and only one of those\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Matt Ferenchick",
+   "published": "2026-11-10T14:00:00+00:00"
+  },
+  {
+   "key": "48fc8fab4edf15df",
+   "title": "David Bednar and Opportunity Cost",
+   "link": "https://www.pinstripealley.com/yankees-analysis-sabermetrics/214337/yankees-mlb-free-agents-qualifying-offer-relief-pitching-david-bednar-blackburn-chapman",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/48fc8fab4edf15df.html",
+   "summary": "Edwin Diaz makes $23 million a year to close out games for the Los Angeles Dodgers, a team that has seemed to stop caring about a payroll budget at all. This year\u2019s qualifying offer is $23.15 million, meaning if Yankee closer David Bednar accepts the one-time, one-year deal, he\u2019ll be the highest\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Joshua Diemert",
+   "published": "2026-11-10T12:30:00+00:00"
+  },
+  {
+   "key": "e9c682c40b12eaff",
+   "title": "New Astoria roundabout draws complaints from some residents",
+   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/10/astoria-residents-raise-concerns-over-new-31st-avenue-roundabout",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/e9c682c40b12eaff.html",
+   "summary": "A new roundabout at 31st Avenue and Newtown Road in Astoria is drawing complaints from some residents who say the layout is confusing.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Alyssa Paolicelli",
+   "published": "2026-11-10T11:50:00+00:00"
   },
   {
    "key": "087c1e5df7037c58",
@@ -24,17 +255,6 @@
    "published": "2026-11-10T11:30:00+00:00"
   },
   {
-   "key": "87e7c944c31ab9c9",
-   "title": "Rent-stabilized buildings hit auction block, despite Mamdani\u2019s efforts to intervene",
-   "link": "https://gothamist.com/news/emerald",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/87e7c944c31ab9c9.html",
-   "summary": "Mayor Zohran Mamdani City officials tried to steer the sale to an affordable housing developer, but the attempt failed.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "David Brand",
-   "published": "2026-11-10T11:00:58+00:00"
-  },
-  {
    "key": "720b2edf73686b27",
    "title": "Union Hits Local News Giant With Federal Labor Complaint After Reporter Is Fired",
    "link": "https://www.thecityreporter.nyc/2026/11/10/schneps-media-qns-union-federal-complaint-nlrb/",
@@ -44,6 +264,28 @@
    "source": "The City",
    "author": "Claudia Irizarry Aponte",
    "published": "2026-11-10T10:00:00+00:00"
+  },
+  {
+   "key": "075e57cf31d6117a",
+   "title": "Newtown High School builds its first football team in 129 years",
+   "link": "http://www.ny1.com/nyc/all-boroughs/sports/2026/11/10/newtown-high-school-builds-its-first-football-team-in-129-years",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/075e57cf31d6117a.html",
+   "summary": "\u201cI wake up every morning, and it's like, \u2018Man, I coach Newtown football,\u2019\u201d said Wayne Crawford. \u201cPeople were telling us, \u2018You're never going to be able to do it, this isn't a football school, we don't have kids who play football,\u2019\u201d Crawford said. \u201cAnd I was like, \u2018Well, we got to either find them\u2026",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Stef Manisero",
+   "published": "2026-11-10T09:15:00+00:00"
+  },
+  {
+   "key": "fb7825c930c0d124",
+   "title": "LIRR president to retire, and stocks rebound following election",
+   "link": "http://www.ny1.com/nyc/all-boroughs/papers/2026/11/10/in-the-papers--11-10-26",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/fb7825c930c0d124.html",
+   "summary": "Pat Kiernan takes a look at what's in the papers on this Tuesday, Nov. 10, 2026.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Spectrum News Staff",
+   "published": "2026-11-10T08:53:00+00:00"
   },
   {
    "key": "c5aa6d55a366b934",
@@ -68,28 +310,6 @@
    "published": "2026-11-10T06:00:00+00:00"
   },
   {
-   "key": "f6b1d0298c1f5d36",
-   "title": "Yankees news: Forecasting awards and the off-season",
-   "link": "https://www.pinstripealley.com/yankees-news/214363/yankees-news-cam-schlittler-cy-young-closer-david-bednar-third-base-offseason",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/f6b1d0298c1f5d36.html",
-   "summary": "ESPN | Bradford Doolittle: It\u2019s awards week! For Yankees fans, Wednesday is the night to pay attention as that\u2019s when the AL and NY Cy Young Award winners will be announced. There shouldn\u2019t really be much suspense for the Cy Young recipient in the American League.\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Kevin Winterhalt",
-   "published": "2026-11-10T05:00:00+00:00"
-  },
-  {
-   "key": "c57597ad428b0457",
-   "title": "Man charged with murder after woman found stabbed to death in Queens, NYPD says",
-   "link": "https://gothamist.com/news/man-charged-with-murder-after-woman-found-stabbed-to-death-in-queens-nypd-says",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/c57597ad428b0457.html",
-   "summary": "File photo of NYPD barricades. Police said the 54-year-old man was arrested Monday, three days after the woman was found dead in Flushing.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Phil Corso",
-   "published": "2026-11-10T01:49:00+00:00"
-  },
-  {
    "key": "d6f960f3f6ad6dbf",
    "title": "Billion Oyster Project, NYC Ferry Launch Floating Classroom For Harlem Students And Beyond",
    "link": "https://www.harlemworldmagazine.com/billion-oyster-project-nyc-ferry-launch-floating-classroom-for-harlem-students-and-beyond/",
@@ -99,17 +319,6 @@
    "source": "Harlem World",
    "author": "Harlem World Magazine",
    "published": "2026-11-09T22:48:26+00:00"
-  },
-  {
-   "key": "41e5477218cace81",
-   "title": "Mamdani calls for investigation on how a man charged for jogger's murder was hired by DOE",
-   "link": "https://gothamist.com/news/mamdani-calls-for-investigation-on-how-a-man-charged-for-joggers-murder-was-hired-by-doe",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/41e5477218cace81.html",
-   "summary": "Sayed Mohassib, who worked as a paraprofessional, had a history of psychiatric issues, officials say.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Carol Chen, Catalina Gonella",
-   "published": "2026-11-09T22:26:00+00:00"
   },
   {
    "key": "263c7d97657c0e67",
@@ -123,39 +332,6 @@
    "published": "2026-11-09T22:03:02+00:00"
   },
   {
-   "key": "81f8aeb1c7278ee7",
-   "title": "NY students will still have to take Regents exams, even as graduation rules change",
-   "link": "https://gothamist.com/news/ny-students-will-still-have-to-take-regents-exams-even-as-graduation-rules-change",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/81f8aeb1c7278ee7.html",
-   "summary": "Lansingburgh High School math teacher Regina Felio, right, helps a student prepare for their upcoming Algebra I Regents exam on Friday, May 15, 2026, at Lansingburgh High School in Troy, N.Y. State education officials say students must take four exams to meet federal testing requirements, but they\u2026",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Giulia Heyward",
-   "published": "2026-11-09T21:52:10+00:00"
-  },
-  {
-   "key": "7b5d1f2daf73b085",
-   "title": "NYC fire deaths nearly double in 2026 as deadly Brooklyn blaze\u2019s victims are identified",
-   "link": "https://gothamist.com/news/nyc-fire-deaths-nearly-double-in-2026-as-deadly-brooklyn-blazes-victims-are-identified",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/7b5d1f2daf73b085.html",
-   "summary": "A fire ripped through a two-story home in Sunset Park early morning on Nov. 5, 2026. The FDNY says 87 people have died in fires this year, compared with 45 during the same period last year.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Charles Lane",
-   "published": "2026-11-09T21:48:33+00:00"
-  },
-  {
-   "key": "70eb5e17e5fc8ac9",
-   "title": "T-Mobile slowed Internet to a crawl for NY low-income users, AG says",
-   "link": "https://gothamist.com/news/t-mobile-slowed-internet-to-a-crawl-for-ny-low-income-users-ag-says",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/70eb5e17e5fc8ac9.html",
-   "summary": "T-Mobile has agreed to improve the home internet service it provides to low-income New Yorkers after the New York Attorney General\u2019s office found it drastically capped speeds for participants in a state-mandated affordable service program, and made the plans difficult to find. Just 15 households\u2026",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Catalina Gonella",
-   "published": "2026-11-09T21:44:00+00:00"
-  },
-  {
    "key": "e7376fa010e5c8da",
    "title": "Veering From Campaign Pledge, Mamdani Brings Back NYC Property Lien Sale for 2027",
    "link": "https://www.thecityreporter.nyc/2026/11/09/foreclosure-water-sewer-tax-debt-cea-weaver/",
@@ -165,17 +341,6 @@
    "source": "The City",
    "author": "Samantha Maldonado",
    "published": "2026-11-09T21:38:29+00:00"
-  },
-  {
-   "key": "fa4e82e670877c97",
-   "title": "NYPD curbs spitting and idling tickets amid complaints about quality-of-life crackdown",
-   "link": "https://gothamist.com/news/nypd-curbs-spitting-and-idling-tickets-amid-complaints-about-quality-of-life-crackdown",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/fa4e82e670877c97.html",
-   "summary": "It follows criticism by some New Yorkers over an increase in so-called quality of life enforcement by the NYPD. It follows criticism by some New Yorkers over an increase in so-called quality-of-life enforcement by the NYPD.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Ben Feuerherd",
-   "published": "2026-11-09T21:32:00+00:00"
   },
   {
    "key": "a49923c5379994ef",
@@ -189,105 +354,6 @@
    "published": "2026-11-09T21:30:02+00:00"
   },
   {
-   "key": "c5c5f6841f5af0bc",
-   "title": "Mayor Mamdani Mobilizes Citywide Winter Response, Expands Code Blue And Supercharges Snow And Ice Removal",
-   "link": "https://www.harlemworldmagazine.com/mayor-mamdani-mobilizes-citywide-winter-response-expands-code-blue-and-supercharges-snow-and-ice-removal/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/c5c5f6841f5af0bc.html",
-   "summary": "Mayor Zohran Kwame Mamdani today announced a sweeping, citywide mobilization to prepare New York City for winter weather, including a $25 million investment in an expanded Code Blue system and a supercharged snow and ice clearing operation. Across City agencies, thousands of workers, new equipment\u2026",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-09T21:14:27+00:00"
-  },
-  {
-   "key": "7d938ec19bd5a5f4",
-   "title": "New Urban Civil Rights Museum Opens In Harlem, Spotlighting The North\u2019s Untold History",
-   "link": "https://www.harlemworldmagazine.com/new-urban-civil-rights-museum-opens-in-harlem-spotlighting-the-norths-untold-history/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/7d938ec19bd5a5f4.html",
-   "summary": "By HWM Harlem is adding another important cultural destination to its historic landscape with the opening of the Urban Civil Rights Museum, a new institution dedicated to exploring the often-overlooked history of the Civil Rights Movement in the northern United States.",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Ann Brown",
-   "published": "2026-11-09T21:07:45+00:00"
-  },
-  {
-   "key": "f9e178f4803a5b01",
-   "title": "Veterans & Military Personnel Ride Free on NY Waterway Ferries This Veterans Day",
-   "link": "https://www.harlemworldmagazine.com/veterans-military-personnel-ride-free-on-ny-waterway-ferries-this-veterans-day/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/f9e178f4803a5b01.html",
-   "summary": "NY Waterway, which operates the largest ferry fleet between New Jersey and New York, will provide free ferry rides on all routes for all active-duty military personnel and military veterans on Veterans Day, Wednesday November 11, 2026. Veterans and active service members simply need to present a\u2026",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-09T20:03:20+00:00"
-  },
-  {
-   "key": "e88a1ecf8eec4867",
-   "title": "Community And Ethic Media Outlets (Again) Call On New York City Mayor-elect Zohran Mamdani To Restore Advertising Lifeline",
-   "link": "https://www.harlemworldmagazine.com/community-and-ethic-media-outlets-again-call-on-new-york-city-mayor-elect-zohran-mamdani-to-restore-advertising-lifeline/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/e88a1ecf8eec4867.html",
-   "summary": "Originally published: Friday, December 19, 2025 Fifty-one ethnic and community media outlets, who publish in 14 different languages, have issued an urgent appeal to Mayor-elect Zohran Mamdani, calling for the immediate restoration of city advertising commitments that have collapsed under the Adams\u2026",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-09T19:24:06+00:00"
-  },
-  {
-   "key": "3924e4cc4f1adc38",
-   "title": "Harlem World Magazine Elevates Your Event With Veteran Red-Carpet Photographers",
-   "link": "https://www.harlemworldmagazine.com/harlem-world-magazine-elevates-your-event-with-veteran-red-carpet-photographers/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/3924e4cc4f1adc38.html",
-   "summary": "By HWM Harlem World Magazine brings 23 years of red-carpet photography experience to premieres, galas, charity benefits, brand activations, awards programs, launches, VIP receptions, cultural events, and private celebrations.",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-09T18:59:15+00:00"
-  },
-  {
-   "key": "ea0e8d1ff96478e2",
-   "title": "New York Blood Center Urges More Blood Drives To Prevent Holiday Shortages",
-   "link": "https://www.harlemworldmagazine.com/new-york-blood-center-urges-more-blood-drives-to-prevent-holiday-shortages/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ea0e8d1ff96478e2.html",
-   "summary": "New York Blood Center (NYBC) is calling on local businesses, schools, places of worship, community groups and other organizations to host blood drives during the upcoming holiday season, particularly between December 21 and January 10. NYBC needs approximately 5,500 additional blood donations\u2026",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-09T18:40:17+00:00"
-  },
-  {
-   "key": "2943c2f0857fdb32",
-   "title": "Yankees Birthday of the Day: Greg Bird",
-   "link": "https://www.pinstripealley.com/yankees-history-trivia/214235/yankees-history-birthday-november-9-greg-bird-first-base",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/2943c2f0857fdb32.html",
-   "summary": "For the most part, many Yankee fans think of the Baby Bombers era as starting in August 2016, as that is the month when Aaron Judge hit a home run in his first Major League plate appearance and Gary S\u00e1nchez unleashed the Kraken en route to a runner-up finish in the Rookie of the Year [\u2026]",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "John Griffin",
-   "published": "2026-11-09T16:00:00+00:00"
-  },
-  {
-   "key": "dd5da524f4bb03d3",
-   "title": "Yankees 2026 Roster Report Cards: Jasson Dom\u00ednguez",
-   "link": "https://www.pinstripealley.com/yankees-roster/214302/yankees-2026-roster-report-cards-jasson-dominguez-outfield-defense-aaron-judge-spencer-jones",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/dd5da524f4bb03d3.html",
-   "summary": "It\u2019s 2023 and the calendar has just flipped over to September. The Yankees are already out of the playoff race as they take the field in Houston. In an effort to inject some youth into the lineup and some excitement into the fanbase for the final month of a disappointing season, they\u2019ve called up\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Peter Brody",
-   "published": "2026-11-09T14:00:00+00:00"
-  },
-  {
-   "key": "b3734b1c1cd95506",
-   "title": "How to play in-5 Trivia on the SB Nation app",
-   "link": "https://www.pinstripealley.com/general/214293/how-to-play-in-5-trivia-on-the-sb-nation-app",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/b3734b1c1cd95506.html",
-   "summary": "You all have mastered the art of commenting but can you name a Yankees player faster than your fellow commenters? That\u2019s the challenge with in-5, our daily trivia game, and today we\u2019re announcing the debut of the game in the SB Nation app (in-5 is available on the web too, you\u2019ve probably seen it\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Kris Willis",
-   "published": "2026-11-09T12:30:00+00:00"
-  },
-  {
    "key": "9753e6cc9ee57471",
    "title": "Mamdani unveils $25M expansion of NYC winter safety plan",
    "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/09/mamdani-unveils--25m-expansion-of-nyc-winter-safety-plan",
@@ -297,17 +363,6 @@
    "source": "NY1",
    "author": "Erica Brosnan",
    "published": "2026-11-09T11:55:00+00:00"
-  },
-  {
-   "key": "1c2b844c27d938a7",
-   "title": "Today on Pinstripe Alley \u2013 11/9/26",
-   "link": "https://www.pinstripealley.com/pinstripe-alley-discussions/214318/today-on-pinstripe-alley-yankees-11-9-26",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/1c2b844c27d938a7.html",
-   "summary": "Another weekend in the books, and hopefully another weekend closer to baseball being played again. We\u2019re fully into November now, and there\u2019s just over a week until we\u2019ll know who is going to accept or decline their qualifying offers and nine days until the non-tender deadline arrives. That\u2019ll give\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Madison Pavich",
-   "published": "2026-11-09T11:00:00+00:00"
   },
   {
    "key": "34feb4db89824a98",
@@ -354,39 +409,6 @@
    "published": "2026-11-09T09:17:00+00:00"
   },
   {
-   "key": "fe1420eb5ad6f591",
-   "title": "SUNY addressing sexual violence, and Giants end drought in Philly",
-   "link": "http://www.ny1.com/nyc/all-boroughs/papers/2026/11/09/in-the-papers--11-9-26",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/fe1420eb5ad6f591.html",
-   "summary": "Pat Kiernan takes a look at what's in the papers on this Monday, Nov. 9, 2026.",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Spectrum News Staff",
-   "published": "2026-11-09T08:49:00+00:00"
-  },
-  {
-   "key": "956c214ed083ec77",
-   "title": "Assemblyman-elect Eon Huntley lays out his priorities",
-   "link": "http://www.ny1.com/nyc/all-boroughs/inside-city-hall/2026/11/10/assemblyman-elect-eon-huntley-lays-out-his-priorities",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/956c214ed083ec77.html",
-   "summary": "Last week\u2019s elections resulted in historic wins for Democrats in states across the country, including in New York.",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Spectrum News Staff",
-   "published": "2026-11-09T08:30:00+00:00"
-  },
-  {
-   "key": "f02311dfc7d9d975",
-   "title": "Man arrested in Brooklyn runner's killing worked at nearby school",
-   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/09/man-arrested-in-brooklyn-runner-s-killing-worked-at-nearby-school",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/f02311dfc7d9d975.html",
-   "summary": "Sayed Mohassib, 27, was arrested and charged with murder in the stabbing death of Brooklyn runner Katie Suarez.",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Spectrum News NY1",
-   "published": "2026-11-09T08:15:00+00:00"
-  },
-  {
    "key": "caaf0c4fb6ba0ab0",
    "title": "HBCU Football Schedule: Games to watch Nov. 14",
    "link": "https://amsterdamnews.com/news/2026/11/08/hbcu-football-schdule-games-to-watch-nov-14/",
@@ -418,28 +440,6 @@
    "source": "MLB Trade Rumors (Yankees)",
    "author": "Anthony Franco",
    "published": "2026-11-06T05:43:31+00:00"
-  },
-  {
-   "key": "bc63f986b75d6489",
-   "title": "Hochul Made Big Gains in NYC\u2019s Blue Wave \u2014 Except in These Neighborhoods",
-   "link": "https://www.thecityreporter.nyc/2026/11/05/nyc-hochul-voters-blue-wave-pied-a-terre/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/bc63f986b75d6489.html",
-   "summary": "Almost 2 million New Yorkers cast their ballots in this year\u2019s gubernatorial election, 218,453 more than in 2022. The increase in voters helped Democratic incumbent Gov. Kathy Hochul safely secure another term, as she trounced Republican Bruce Blakeman in New York City, 76% to 24% with 97% of\u2026",
-   "category": "nyc",
-   "source": "The City",
-   "author": "Haidee Chu",
-   "published": "2026-11-05T19:41:33+00:00"
-  },
-  {
-   "key": "b61c8e2ed42a2735",
-   "title": "How Southern Brooklyn Democrats Flipped State Seats in Immigrant-Heavy Areas",
-   "link": "https://www.thecityreporter.nyc/2026/11/05/bensonhurst-state-legislative-races-larry-he-joyce-xiaoqiong-xie/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/b61c8e2ed42a2735.html",
-   "summary": "It was around 9:30 p.m., when the loud chants began. \u201cLa-rry, La-rry!\u201d \u201cJoyce, Joyce!\u201d",
-   "category": "nyc",
-   "source": "The City",
-   "author": "April Xu",
-   "published": "2026-11-05T19:35:06+00:00"
   }
  ]
 }
