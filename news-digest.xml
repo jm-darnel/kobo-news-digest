@@ -6,7 +6,39 @@
     <description>Harlem, NYC and Yankees news for offline reading on KOReader.</description>
     <language>en-us</language>
     <ttl>60</ttl>
-    <lastBuildDate>Sun, 15 Nov 2026 06:22:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 15:38:41 +0000</lastBuildDate>
+    <item>
+      <title>NYPD fatally shoots driver on Belt Parkway following suspected abduction</title>
+      <link>https://jm-darnel.github.io/kobo-news-digest/articles/ceac0c1580d1a6df.html</link>
+      <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/ceac0c1580d1a6df.html</guid>
+      <pubDate>Sun, 15 Nov 2026 15:20:00 +0000</pubDate>
+      <category>nyc</category>
+      <description><![CDATA[A woman who was heard screaming for help from inside the van was unharmed.]]></description>
+    </item>
+    <item>
+      <title>Some in NY fret about being hit by the AI bus. Others are trying to board it.</title>
+      <link>https://jm-darnel.github.io/kobo-news-digest/articles/9337e47e0684e7f4.html</link>
+      <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/9337e47e0684e7f4.html</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:43 +0000</pubDate>
+      <category>nyc</category>
+      <description><![CDATA[Stock photo of a software engineering team at work. Some Black and Latino New Yorkers are working to gain a foothold in the AI-altered economy.]]></description>
+    </item>
+    <item>
+      <title>HBCU Football Schedule: Games to watch Nov. 21</title>
+      <link>https://jm-darnel.github.io/kobo-news-digest/articles/b31d4b53ff5c58c9.html</link>
+      <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/b31d4b53ff5c58c9.html</guid>
+      <pubDate>Sun, 15 Nov 2026 11:12:33 +0000</pubDate>
+      <category>harlem</category>
+      <description><![CDATA[Get the latest HBCU football schedule, featuring key matchups, classic games, kickoff times and locations from across the country.]]></description>
+    </item>
+    <item>
+      <title>Today on Pinstripe Alley – 11/15/26</title>
+      <link>https://jm-darnel.github.io/kobo-news-digest/articles/612713d2c46302db.html</link>
+      <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/612713d2c46302db.html</guid>
+      <pubDate>Sun, 15 Nov 2026 11:00:00 +0000</pubDate>
+      <category>yankees</category>
+      <description><![CDATA[We’re halfway through November, which means we’ve got a good couple of weeks left before the sport presumably gets thrown into a lockout. It’ll become slim pickings for news then, but there’s a chance that the leadup to December gives us a preview of some new roster building — the Red Sox made the…]]></description>
+    </item>
     <item>
       <title>Yankees news: Odds and ends from the GM meetings</title>
       <link>https://jm-darnel.github.io/kobo-news-digest/articles/74d8cd1260bfc9e0.html</link>
@@ -96,28 +128,12 @@
       <description><![CDATA[I hope none of you fine folks were planning on flying anywhere last night. If you were, you have my condolences! I hope you got back home alright, or at least to a hotel.…]]></description>
     </item>
     <item>
-      <title>Yankees news: Brian Cashman taps bullpen as top priority</title>
-      <link>https://jm-darnel.github.io/kobo-news-digest/articles/6739a6d0896044d3.html</link>
-      <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/6739a6d0896044d3.html</guid>
-      <pubDate>Sat, 14 Nov 2026 05:00:00 +0000</pubDate>
-      <category>yankees</category>
-      <description><![CDATA[MLB.com | Bryan Hoch: After the conclusion of the annual GM meetings this week, the Yankees’ offseason priorities are beginning to come into focus. Brian Cashman acknowledged in an interview that rebuilding his bullpen tops the list. “Two of the three pitchers going into our eighth and ninth inning…]]></description>
-    </item>
-    <item>
       <title>Four Days Without Cell Service? For This Adventure-Seeking New Yorker, It Was Bliss</title>
       <link>https://jm-darnel.github.io/kobo-news-digest/articles/f30489770805735c.html</link>
       <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/f30489770805735c.html</guid>
       <pubDate>Sat, 14 Nov 2026 00:53:00 +0000</pubDate>
       <category>nyc</category>
       <description><![CDATA[Ready to trade the city hustle and bustle for a sky full of stars?]]></description>
-    </item>
-    <item>
-      <title>F and G lines grind to a halt as signal issues slows Friday night rush</title>
-      <link>https://jm-darnel.github.io/kobo-news-digest/articles/95a98082d23cdb10.html</link>
-      <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/95a98082d23cdb10.html</guid>
-      <pubDate>Sat, 14 Nov 2026 00:38:06 +0000</pubDate>
-      <category>nyc</category>
-      <description><![CDATA[F and G trains ground to a halt amid signal failures Friday. The MTA's ongoing signal problems came amid a national flight stoppage.]]></description>
     </item>
     <item>
       <title>FAA Halts U.S. Departures Nationwide After Air Traffic Communications Outage Friday</title>
@@ -134,14 +150,6 @@
       <pubDate>Fri, 13 Nov 2026 23:23:07 +0000</pubDate>
       <category>harlem</category>
       <description><![CDATA[By HWM and Perplexity Eventually peaked at approximately 19,650 per minute, compared with fewer than 15 reports during a typical Thursday.]]></description>
-    </item>
-    <item>
-      <title>NYC, NJ airports grounded as part of nationwide shutdown, FAA says</title>
-      <link>https://jm-darnel.github.io/kobo-news-digest/articles/97132e77a82a44db.html</link>
-      <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/97132e77a82a44db.html</guid>
-      <pubDate>Fri, 13 Nov 2026 23:15:00 +0000</pubDate>
-      <category>nyc</category>
-      <description><![CDATA[An airplane at JFK Airport. The Federal Aviation Administration issued a ground stop for all U.S. airports following a “temporary telecommunications outage.”]]></description>
     </item>
     <item>
       <title>NYC Bodegas Get Reprieve From New SNAP Rules After Mamdani-Trump Call, Mayor Says</title>
@@ -318,14 +326,6 @@
       <pubDate>Fri, 13 Nov 2026 00:01:30 +0000</pubDate>
       <category>nyc</category>
       <description><![CDATA[As city officials scramble to figure out who is to blame for the stunning collapse of a Brooklyn apartment building into an adjacent construction site this week, questions are surfacing about the troubled track records of two of the contractors doing work there. The three-story apartment building…]]></description>
-    </item>
-    <item>
-      <title>Brooklyn building collapse killed 2 children and 6 adults, mayor says</title>
-      <link>https://jm-darnel.github.io/kobo-news-digest/articles/d4ceb5befac482b3.html</link>
-      <guid isPermaLink="true">https://jm-darnel.github.io/kobo-news-digest/articles/d4ceb5befac482b3.html</guid>
-      <pubDate>Thu, 12 Nov 2026 17:32:17 +0000</pubDate>
-      <category>harlem</category>
-      <description><![CDATA[At least eight people died after a three-story building in Brooklyn collapsed at the edge of a construction site.]]></description>
     </item>
   </channel>
 </rss>

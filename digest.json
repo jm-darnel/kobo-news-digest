@@ -2,6 +2,50 @@
  "version": 1,
  "items": [
   {
+   "key": "ceac0c1580d1a6df",
+   "title": "NYPD fatally shoots driver on Belt Parkway following suspected abduction",
+   "link": "https://gothamist.com/news/nypd-fatally-shoot-man-after-report-of-possible-abduction-in-coney-island",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ceac0c1580d1a6df.html",
+   "summary": "A woman who was heard screaming for help from inside the van was unharmed.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Michael Sol Warren",
+   "published": "2026-11-15T15:20:00+00:00"
+  },
+  {
+   "key": "9337e47e0684e7f4",
+   "title": "Some in NY fret about being hit by the AI bus. Others are trying to board it.",
+   "link": "https://gothamist.com/news/some-in-ny-fret-about-being-hit-by-the-ai-bus-others-are-trying-to-board-it",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/9337e47e0684e7f4.html",
+   "summary": "Stock photo of a software engineering team at work. Some Black and Latino New Yorkers are working to gain a foothold in the AI-altered economy.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Willow Higgins",
+   "published": "2026-11-15T12:00:43+00:00"
+  },
+  {
+   "key": "b31d4b53ff5c58c9",
+   "title": "HBCU Football Schedule: Games to watch Nov. 21",
+   "link": "https://amsterdamnews.com/news/2026/11/15/hbcu-football-schdule-games-to-watch-nov-21/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/b31d4b53ff5c58c9.html",
+   "summary": "Get the latest HBCU football schedule, featuring key matchups, classic games, kickoff times and locations from across the country.",
+   "category": "harlem",
+   "source": "Amsterdam News",
+   "author": "AmNews Staff Reports",
+   "published": "2026-11-15T11:12:33+00:00"
+  },
+  {
+   "key": "612713d2c46302db",
+   "title": "Today on Pinstripe Alley \u2013 11/15/26",
+   "link": "https://www.pinstripealley.com/pinstripe-alley-discussions/214720/today-on-pinstripe-alley-yankees-11-15-26",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/612713d2c46302db.html",
+   "summary": "We\u2019re halfway through November, which means we\u2019ve got a good couple of weeks left before the sport presumably gets thrown into a lockout. It\u2019ll become slim pickings for news then, but there\u2019s a chance that the leadup to December gives us a preview of some new roster building \u2014 the Red Sox made the\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Madison Pavich",
+   "published": "2026-11-15T11:00:00+00:00"
+  },
+  {
    "key": "74d8cd1260bfc9e0",
    "title": "Yankees news: Odds and ends from the GM meetings",
    "link": "https://www.pinstripealley.com/yankees-news/214681/yankees-news-gm-meetings-cashman-dominguez-oda-red-sox-free-agents",
@@ -123,17 +167,6 @@
    "published": "2026-11-14T11:00:00+00:00"
   },
   {
-   "key": "6739a6d0896044d3",
-   "title": "Yankees news: Brian Cashman taps bullpen as top priority",
-   "link": "https://www.pinstripealley.com/yankees-news/214651/yankees-news-brian-cashman-offseason-free-agency-bullpen-bednar-morejon-third-base-bohm-sato",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/6739a6d0896044d3.html",
-   "summary": "MLB.com | Bryan Hoch: After the conclusion of the annual GM meetings this week, the Yankees\u2019 offseason priorities are beginning to come into focus. Brian Cashman acknowledged in an interview that rebuilding his bullpen tops the list. \u201cTwo of the three pitchers going into our eighth and ninth inning\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Nick Power",
-   "published": "2026-11-14T05:00:00+00:00"
-  },
-  {
    "key": "f30489770805735c",
    "title": "Four Days Without Cell Service? For This Adventure-Seeking New Yorker, It Was Bliss",
    "link": "https://gothamist.com/arts-entertainment/four-days-without-cell-service-for-this-adventure-seeking-new-yorker-it-was-bliss",
@@ -143,17 +176,6 @@
    "source": "Gothamist",
    "author": "Gothamist Sponsor",
    "published": "2026-11-14T00:53:00+00:00"
-  },
-  {
-   "key": "95a98082d23cdb10",
-   "title": "F and G lines grind to a halt as signal issues slows Friday night rush",
-   "link": "https://gothamist.com/news/f-and-g-lines-grind-to-a-halt-as-signal-issues-slows-friday-night-rush",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/95a98082d23cdb10.html",
-   "summary": "F and G trains ground to a halt amid signal failures Friday. The MTA's ongoing signal problems came amid a national flight stoppage.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "David Giambusso",
-   "published": "2026-11-14T00:38:06+00:00"
   },
   {
    "key": "0892a4473ce0669b",
@@ -176,17 +198,6 @@
    "source": "Harlem World",
    "author": "Harlem World Magazine",
    "published": "2026-11-13T23:23:07+00:00"
-  },
-  {
-   "key": "97132e77a82a44db",
-   "title": "NYC, NJ airports grounded as part of nationwide shutdown, FAA says",
-   "link": "https://gothamist.com/news/all-us-airports-shut-down-transportation-secretary-sean-duffy-says",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/97132e77a82a44db.html",
-   "summary": "An airplane at JFK Airport. The Federal Aviation Administration issued a ground stop for all U.S. airports following a \u201ctemporary telecommunications outage.\u201d",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Charles Lane",
-   "published": "2026-11-13T23:15:00+00:00"
   },
   {
    "key": "e3bda5ee464f0726",
@@ -429,17 +440,6 @@
    "source": "The City",
    "author": "Samantha Maldonado",
    "published": "2026-11-13T00:01:30+00:00"
-  },
-  {
-   "key": "d4ceb5befac482b3",
-   "title": "Brooklyn building collapse killed 2 children and 6 adults, mayor says",
-   "link": "https://amsterdamnews.com/news/2026/11/12/brooklyn-building-collapse-kills-eight/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/d4ceb5befac482b3.html",
-   "summary": "At least eight people died after a three-story building in Brooklyn collapsed at the edge of a construction site.",
-   "category": "harlem",
-   "source": "Amsterdam News",
-   "author": "ANTHONY IZAGUIRRE, JENNIFER PELTZ and KATHY McCORMACK Associated Press",
-   "published": "2026-11-12T17:32:17+00:00"
   }
  ]
 }
