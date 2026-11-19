@@ -2,15 +2,169 @@
  "version": 1,
  "items": [
   {
-   "key": "c8c61dcbe698b41d",
-   "title": "Mamdani tests new strategy to punish bad NYC landlords in latest lawsuit",
-   "link": "https://gothamist.com/news/mamdani-tests-new-strategy-to-punish-bad-nyc-landlords-in-latest-lawsuit",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/c8c61dcbe698b41d.html",
-   "summary": "Mayor Mamdani is trying a new tactic on neglectful landlords. The mayor's law department is suing some landlords for fraud.",
+   "key": "da8504e41e44bb23",
+   "title": "Owner of Peanut, scandalously slain NY squirrel, charged with upstate mortgage fraud",
+   "link": "https://gothamist.com/news/owner-of-peanut-scandalously-slain-ny-squirrel-charged-with-upstate-mortgage-fraud",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/da8504e41e44bb23.html",
+   "summary": "New York officials seized Mark Longo\u2019s internet-famous pet squirrel Peanut in the final weeks of the 2024 presidential race. Mark Longo, 36, was arraigned on 14 felony counts.",
    "category": "nyc",
    "source": "Gothamist",
-   "author": "David Brand",
-   "published": "2026-11-18T17:00:09+00:00"
+   "author": "Jon Campbell",
+   "published": "2026-11-19T01:44:23+00:00"
+  },
+  {
+   "key": "0967956cae32a9a9",
+   "title": "DNA, photos could link alleged Central Park serial rapist to 3 assaults, prosecutors say",
+   "link": "https://gothamist.com/news/dna-and-photo-evidence-could-link-alleged-central-park-serial-rapist-to-3-assaults-authorities-say",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/0967956cae32a9a9.html",
+   "summary": "Dereck Rivera-Deleon in Manhattan court on Nov. 18, 2026. Dereck Rivera-Deleon did not enter a plea at his court appearance on Wednesday.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Brittany Kriegstein",
+   "published": "2026-11-18T23:33:00+00:00"
+  },
+  {
+   "key": "467bd160077cb99f",
+   "title": "MTA Drivers Taking 50 Sick Days a Year May Be to Blame For Your Canceled Bus",
+   "link": "https://www.thecityreporter.nyc/2026/11/18/bus-driver-sick-days-mta-transit-workers/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/467bd160077cb99f.html",
+   "summary": "Close to 1,000 bus operators call out sick in excess of 50 days a year, MTA officials said Wednesday, charging that no-show \u201cbad apples\u201d have left riders hanging on nearly 120,000 trips this year alone. \u201cDon\u2019t milk the city and state and regional taxpayer so you can sit at home or go to Florida or\u2026",
+   "category": "nyc",
+   "source": "The City",
+   "author": "Jose Martinez",
+   "published": "2026-11-18T23:08:35+00:00"
+  },
+  {
+   "key": "43440bb4cd7cf069",
+   "title": "City to demolish Brooklyn building damaged in deadly Flatbush collapse",
+   "link": "https://gothamist.com/news/city-to-demolish-brooklyn-building-damaged-in-deadly-flatbush-collapse",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/43440bb4cd7cf069.html",
+   "summary": "Rescue workers search for survivors in the debris of a collapsed building in Flatbush, Brooklyn. City engineers say the neighboring apartment building is too unstable to repair safely.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Phil Corso",
+   "published": "2026-11-18T23:07:07+00:00"
+  },
+  {
+   "key": "0b00b11a97cdf3fd",
+   "title": "Trump said congestion pricing would end NYC. Now, his admin wants it in more cities.",
+   "link": "https://gothamist.com/news/trump-said-congestion-pricing-would-end-nyc-now-his-admin-wants-it-in-more-cities",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/0b00b11a97cdf3fd.html",
+   "summary": "Transportation Secretary Sean Duffy has criticized congestion pricing. But now his agency is offering funds for similar programs. The about-face comes after the feds unsuccessfully tried to kill the Manhattan tolling program in court.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Stephen Nessen",
+   "published": "2026-11-18T22:20:00+00:00"
+  },
+  {
+   "key": "cf8c26a0c090f889",
+   "title": "Hakeem Jeffries gets party nod as House Speaker, but NYC's left remains wary",
+   "link": "https://gothamist.com/news/hakeem-jeffries-gets-party-nod-as-house-speaker-but-nycs-left-remains-wary",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/cf8c26a0c090f889.html",
+   "summary": "Hakeem Jeffries is the first Black person to be voted Speaker of the House. Jeffries will be the first Black speaker of the U.S. House of Representatives.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Ryan Kost",
+   "published": "2026-11-18T21:16:00+00:00"
+  },
+  {
+   "key": "ccd0ec477726a219",
+   "title": "MTA warns of major budget deficit without help from city, state and feds",
+   "link": "https://gothamist.com/news/mta-warns-of-major-budget-deficit-without-help-from-city-state-and-feds",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ccd0ec477726a219.html",
+   "summary": "MTA Chair Janno Lieber called on lawmakers to help balance the transit agency's books. The transit agency's leaders said existing revenues aren't enough to keep up with rising costs of healthcare, wages and utilities.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Ramsey Khalifeh",
+   "published": "2026-11-18T21:10:58+00:00"
+  },
+  {
+   "key": "d994412c178cacfa",
+   "title": "First Rikers Island Demolition Set for 2027 Under Mamdani Plan",
+   "link": "https://www.thecityreporter.nyc/2026/11/18/first-rikers-island-demolition-set-for-2027-under-mamdani-plan/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/d994412c178cacfa.html",
+   "summary": "On Rikers, the North Infirmary Command, which opened in 1932, is slated to be torn down in 2027. The facility was closed in June, with some detainees moved to a new medical unit at Bellevue Hospital. Marvin Pines, 65, died there in February 2023 after suffering a seizure.\u2026",
+   "category": "nyc",
+   "source": "The City",
+   "author": "Reuven Blau",
+   "published": "2026-11-18T20:35:17+00:00"
+  },
+  {
+   "key": "255752bbc9b49ea8",
+   "title": "NYPD investigating alleged sexual assault of NYU student near freshman dorm",
+   "link": "https://gothamist.com/news/nypd-investigating-alleged-sexual-assault-of-nyu-student-near-freshman-dorm",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/255752bbc9b49ea8.html",
+   "summary": "New York University is located in numerous repurposed buildings in Lower Manhattan. Police say a 19-year-old woman was assaulted Sunday night in Greenwich Village. NYU says it is cooperating with the investigation.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Giulia Heyward",
+   "published": "2026-11-18T20:20:47+00:00"
+  },
+  {
+   "key": "1623bcec80855051",
+   "title": "PHOTOS: The Salvation Army and the CMA CGM Foundation deliver 2,000 Thanksgiving meals to families in Harlem",
+   "link": "https://amsterdamnews.com/news/2026/11/18/photos-the-salvation-army-and-the-cma-cgm-foundation-deliver-2000-thanksgiving-meals-to-families-in-harlem/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/1623bcec80855051.html",
+   "summary": "Photos courtesy of The Salvation Army In addition to turkeys, families received the essential ingredients for a traditional Thanksgiving meal, including mashed potatoes, gravy and other holiday staples, ensuring they had everything needed to prepare a special holiday meal.",
+   "category": "harlem",
+   "source": "Amsterdam News",
+   "author": "AmNews Staff Reports",
+   "published": "2026-11-18T19:44:21+00:00"
+  },
+  {
+   "key": "cc39ca4ae993e3af",
+   "title": "Hollywood: Lifetime\u2019s Holiday Stars Gather For A Festive Night",
+   "link": "https://www.harlemworldmagazine.com/hollywood-lifetimes-holiday-stars-gather-for-a-festive-night/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/cc39ca4ae993e3af.html",
+   "summary": "Never miss new stories in Harlem Among the evening\u2019s featured talent were Brandy Norwood, Tia Mowry, Vivica A. Fox, Joely Fisher, Sy\u2019rai Smith, Henderson Wade, Marla Sokoloff, Juliah Cheree Taylor, Robert C. Riley and Journey Carter, representing the network\u2019s festive lineup of original holiday\u2026",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-18T19:13:15+00:00"
+  },
+  {
+   "key": "b0293df39eaba7dd",
+   "title": "New York NAACP Responds As Jeffries Secures Votes For House Speakership",
+   "link": "https://www.harlemworldmagazine.com/new-york-naacp-responds-as-jeffries-secures-votes-for-house-speakership/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/b0293df39eaba7dd.html",
+   "summary": "In response to Minority Leader Hakeem Jeffries securing the votes to become speaker of the U.S. House of Representatives for the 120th Congress, the NAACP New York State Conference issued the following statement: \u201cHouse Democrats took an important step forward in selecting New York\u2019s own Hakeem\u2026",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-18T18:46:04+00:00"
+  },
+  {
+   "key": "e6bcb86e3ce31dce",
+   "title": "Interview: In Harlem, Six Decades Of Turning Entrepreneurial Ambition Into Lasting Ownership",
+   "link": "https://www.harlemworldmagazine.com/interview-in-harlem-six-decades-of-turning-entrepreneurial-ambition-into-lasting-ownership/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/e6bcb86e3ce31dce.html",
+   "summary": "By HWM In Harlem, the story of a business does not begin and end with an opening night.",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-18T18:40:34+00:00"
+  },
+  {
+   "key": "0b44c1516bc3b36f",
+   "title": "Scouting the needs of the AL East",
+   "link": "https://www.pinstripealley.com/yankees-analysis-sabermetrics/214887/yankees-mlb-offseason-free-agency-al-east-blue-jays-rays-orioles-red-sox",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/0b44c1516bc3b36f.html",
+   "summary": "Nothing operates in a vacuum, certainly not a baseball team\u2019s offseason. Every trade idea needs a partner willing to deal, every free agent is taking someone else\u2019s call after yours. We have a pretty good idea of where the Yankees need to improve (GOD get a third baseman), and who they stand to\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Joshua Diemert",
+   "published": "2026-11-18T18:00:00+00:00"
+  },
+  {
+   "key": "e461acb3d57f5ac8",
+   "title": "3 high-rise towers in Astoria? 'Not the affordable housing' residents have in mind.",
+   "link": "https://gothamist.com/news/3-high-rise-towers-in-astoria-not-the-affordable-housing-residents-have-in-mind",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/e461acb3d57f5ac8.html",
+   "summary": "Rendering of one of the new apartment buildings proposed for Steinway Street in Astoria by Schuman Properties. A public hearing on the proposed Steinway Street apartment buildings drew critics.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Arya Sundaram",
+   "published": "2026-11-18T17:17:23+00:00"
   },
   {
    "key": "3ae8aaafacbad13d",
@@ -46,39 +200,6 @@
    "published": "2026-11-18T16:00:00+00:00"
   },
   {
-   "key": "2bdb84a1a3e702d3",
-   "title": "Does an opera have to make sense? 'Einstein on the Beach' at BAM is a chance to find out.",
-   "link": "https://gothamist.com/arts-entertainment/does-an-opera-have-to-make-sense-einstein-on-the-beach-at-bam-is-a-chance-to-find-out",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/2bdb84a1a3e702d3.html",
-   "summary": "Earlier this week, Michael Riesman, the 83-year-old music director of the Philip Glass Ensemble, sat at a piano in an upstairs rehearsal space at the Brooklyn Academy of Music. His fingers flew furiously across the keys as he played nonstop arpeggios. The sound echoed through the room.\u2026",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Sonia Rao",
-   "published": "2026-11-18T16:00:00+00:00"
-  },
-  {
-   "key": "4166aaa0a1d9257f",
-   "title": "Plan for Williamsburg business district fuels fight over future of pricey neighborhood",
-   "link": "https://gothamist.com/news/plan-for-williamsburg-business-district-fuels-fight-over-future-of-pricey-neighborhood",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/4166aaa0a1d9257f.html",
-   "summary": "When Katie Denny Horowitz became the North Brooklyn Parks Alliance's executive director in 2019, she started thinking about different ways to raise money for parks maintenance in Williamsburg. Local residents, she said, were complaining that the parks and surrounding streets were filthy, and\u2026",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Willow Higgins",
-   "published": "2026-11-18T15:11:00+00:00"
-  },
-  {
-   "key": "647dbb9886c6b8a8",
-   "title": "Early Addition: A new strip club moved into the former Hell's Kitchen Hustler Club",
-   "link": "https://gothamist.com/news/early-addition-a-new-strip-club-moved-into-the-former-hells-kitchen-hustler-club",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/647dbb9886c6b8a8.html",
-   "summary": "Because it's now called Peppermint Rhino, here are your early links: Year-round outdoor dining fines, MapQuest trying to make a comeback, Rep. Mark Teixeira doesn't want to talk baseball and more.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "James Ramsay",
-   "published": "2026-11-18T15:01:00+00:00"
-  },
-  {
    "key": "7920971c75885e2e",
    "title": "Yankees 2026 Roster Report Card: Spencer Jones",
    "link": "https://www.pinstripealley.com/yankees-roster/214788/yankees-2026-roster-report-card-spencer-jones-rookie-call-up-debut",
@@ -88,17 +209,6 @@
    "source": "Pinstripe Alley",
    "author": "Matt Ferenchick",
    "published": "2026-11-18T14:00:00+00:00"
-  },
-  {
-   "key": "29fcbe2a2c5d8adc",
-   "title": "Alleged Central Park rapist charged with 2 counts of rape, NYPD says",
-   "link": "https://gothamist.com/news/alleged-central-park-rapist-charged-with-2-counts-of-rape-nypd-says",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/29fcbe2a2c5d8adc.html",
-   "summary": "Aerial view of the Upper East Side and Central Park Officials say Dereck Rivera-Deleon was extradited to New York and is expected to appear in court on Wednesday.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Brittany Kriegstein",
-   "published": "2026-11-18T13:27:23+00:00"
   },
   {
    "key": "f5bb3d498ef45207",
@@ -167,6 +277,61 @@
    "published": "2026-11-18T08:45:00+00:00"
   },
   {
+   "key": "5f2e0a799b50066e",
+   "title": "School bus woes lead parents, lawmakers to seek contract changes",
+   "link": "http://www.ny1.com/nyc/all-boroughs/politics/2026/11/19/school-bus-woes-lead-parents-lawmakers-to-seek-contract-changes",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/5f2e0a799b50066e.html",
+   "summary": "Another school year began with thousands of students who did not have a bus driver to take them to school. Many more face hours-long commutes.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Dan Rivoli",
+   "published": "2026-11-18T08:24:00+00:00"
+  },
+  {
+   "key": "0ad5e2de51cc42b3",
+   "title": "N.Y. lawmakers question farm funding access as state looks to expand urban agriculture",
+   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/19/n-y--lawmakers-question-farm-funding-access",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/0ad5e2de51cc42b3.html",
+   "summary": "Lawmakers pressed the state\u2019s agriculture commissioner Wednesday for more detail about who is receiving farming grants.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "N\u00e1i Rhoden",
+   "published": "2026-11-18T07:10:00+00:00"
+  },
+  {
+   "key": "b4686f904b3348b9",
+   "title": "New York leaders call on Schumer, Jeffries to enforce 2-year SNAP cost shift delay",
+   "link": "http://www.ny1.com/nyc/all-boroughs/politics/2026/11/18/federal-snap-cuts",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/b4686f904b3348b9.html",
+   "summary": "SNAP is the largest U.S. anti-hunger program.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Nicole Neuman",
+   "published": "2026-11-18T07:10:00+00:00"
+  },
+  {
+   "key": "2b902fba28a907e1",
+   "title": "Council report shows stores selling e-cigarettes close to schools despite ban",
+   "link": "http://www.ny1.com/nyc/all-boroughs/politics/2026/11/18/council-report-shows-stores-selling-ecigarettes-close-to-schools-despite-ban",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/2b902fba28a907e1.html",
+   "summary": "Council members unveiled a new report that showed shops are selling e-cigarettes near public schools despite being banned.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Kelly Mena",
+   "published": "2026-11-18T06:37:00+00:00"
+  },
+  {
+   "key": "9e9dc373358b8f90",
+   "title": "Central Park rape suspect appears in court after Florida arrest",
+   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/18/central-park-rape-suspect-appears-in-court-after-florida-arrest",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/9e9dc373358b8f90.html",
+   "summary": "A man extradited from Florida is being held without bail in New York on charges tied to reported rapes in Central Park.",
+   "category": "nyc",
+   "source": "NY1",
+   "author": "Carly Haynes",
+   "published": "2026-11-18T06:03:00+00:00"
+  },
+  {
    "key": "1476adae3d69c497",
    "title": "Yankees news: You can put those \u2018pen worries to Bed-nar",
    "link": "https://www.pinstripealley.com/yankees-news/214904/yankees-news-bednar-qualifying-offer-lagrange-40-man-rule-5-carr-martin-brett-gardner",
@@ -176,17 +341,6 @@
    "source": "Pinstripe Alley",
    "author": "Kento Mizuno",
    "published": "2026-11-18T05:00:00+00:00"
-  },
-  {
-   "key": "961a6b5f67c17099",
-   "title": "MTA plans new subway signals for \u2018the whole damn system, finally\u2019",
-   "link": "https://gothamist.com/news/mta-plans-new-subway-signals-for-the-whole-damn-system-finally",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/961a6b5f67c17099.html",
-   "summary": "Lieber shared the plan during an event at WNYC\u2019s Greene Space, saying the new signals will change service for the better. \u201c[We\u2019re] accomplishing what people have talked about in general terms but never really laid a detailed plan for, which is going to resignal the whole damn system, finally,\u201d\u2026",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Ramsey Khalifeh",
-   "published": "2026-11-18T02:00:55+00:00"
   },
   {
    "key": "9a3a5e877df9f5ce",
@@ -209,28 +363,6 @@
    "source": "Pinstripe Alley",
    "author": "Matt Ferenchick",
    "published": "2026-11-18T01:08:21+00:00"
-  },
-  {
-   "key": "4cb0c4a444fb04fa",
-   "title": "Yankees add Carlos Lagrange, two others to 40-man roster ahead of Rule 5 deadline",
-   "link": "https://www.pinstripealley.com/yankees-news/214884/yankees-news-rule-5-draft-deadline-carlos-lagrange-top-prospect-40-man-roster-carr-martin-arias",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/4cb0c4a444fb04fa.html",
-   "summary": "Carlos Lagrange headlines that list of rostered prospects, and he is joined on the 40-man by pitcher Kyle Carr and outfielder Garrett Martin. It was part of a busy day for the Yankees in terms of roster additions. We had previously learned that David Bednar accepted the qualifying offer to return\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Peter Brody",
-   "published": "2026-11-17T23:33:13+00:00"
-  },
-  {
-   "key": "c6a59e942ae7e156",
-   "title": "Tenant in collapsed Brooklyn building says he warned landlord of cracks in lawsuit",
-   "link": "https://gothamist.com/news/tenant-in-collapsed-brooklyn-building-says-he-warned-landlord-of-cracks-in-lawsuit",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/c6a59e942ae7e156.html",
-   "summary": "A view of the building collapse in Flatbush, Brooklyn on November 11, 2026. Dengane Omari Jack said he sent his landlord photos showing damage around the building\u2019s entrance weeks before it collapsed.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "David Brand",
-   "published": "2026-11-17T23:28:25+00:00"
   },
   {
    "key": "0b586b643db29978",
@@ -264,17 +396,6 @@
    "source": "MLB Trade Rumors (Yankees)",
    "author": "Charlie Wright",
    "published": "2026-11-17T21:06:05+00:00"
-  },
-  {
-   "key": "9fb218987edb199f",
-   "title": "NYC inspection blitz halts construction at sites tied to fatal Brooklyn building collapse",
-   "link": "https://gothamist.com/news/nyc-inspection-blitz-halts-construction-at-sites-tied-to-fatal-brooklyn-building-collapse",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/9fb218987edb199f.html",
-   "summary": "A resident watches as clean up begins at the scene of a partial building collapsed on November 12 in Flatbush, Brooklyn. A Gothamist analysis finds the Department of Buildings is targeting five projects linked to engineers involved in construction next to the collapsed Brooklyn apartment building.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "David Brand, Joe Hong",
-   "published": "2026-11-17T20:40:00+00:00"
   },
   {
    "key": "3e62debf4b9a9660",
@@ -319,127 +440,6 @@
    "source": "Harlem World",
    "author": "Harlem World Magazine",
    "published": "2026-11-17T18:51:32+00:00"
-  },
-  {
-   "key": "4bc42b8733b5fb00",
-   "title": "NYC Public School Enrollment Falls 3%, With Further Decrease Expected",
-   "link": "https://www.thecityreporter.nyc/2026/11/17/students-families-declining-school-size-mamdani-kamar-samuels/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/4bc42b8733b5fb00.html",
-   "summary": "New York City\u2019s public schools lost about 23,000 students, or nearly 3%, from the year before, according to preliminary numbers the Education Department released Monday. That leaves the nation\u2019s largest school system with about 766,900 students, from kindergarten through senior year, as of Oct. 31\u2026",
-   "category": "nyc",
-   "source": "The City",
-   "author": "Alex Zimmerman, Chalkbeat",
-   "published": "2026-11-17T18:00:00+00:00"
-  },
-  {
-   "key": "2a17886f1d84b598",
-   "title": "Mayor Mamdani, Chancellor Samuels Launch Schools Technology Coalition Following AI Ban",
-   "link": "https://www.harlemworldmagazine.com/mayor-mamdani-chancellor-samuels-launch-schools-technology-coalition-following-ai-ban/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/2a17886f1d84b598.html",
-   "summary": "Mayor Zohran Kwame Mamdani and New York City Public Schools (NYCPS) Chancellor Kamar Samuels today announced a continued pivot away from reliance on technology-based instruction with the launch of the Technology in Schools Coalition. \u201cA strong education is about human connection, curiosity and the\u2026",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-17T17:38:03+00:00"
-  },
-  {
-   "key": "b0ab436f03372416",
-   "title": "The Trust For Governors Island Releases Its Annual Climate Solutions Challenge",
-   "link": "https://www.harlemworldmagazine.com/the-trust-for-governors-island-releases-its-annual-climate-solutions-challenge/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/b0ab436f03372416.html",
-   "summary": "This initiative, presented through the Governors Island Climate Piloting Program, offers early-stage companies and innovators the opportunity to test and scale climate products and services in a real-world environment. Over 3-to-18-month periods, participants receive rent-free physical space on\u2026",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-17T16:34:17+00:00"
-  },
-  {
-   "key": "ee5044247871a8c3",
-   "title": "Public Housing Community Fund And Hoopbus Launch \u2018Every Court Counts\u2019 Initiative",
-   "link": "https://www.harlemworldmagazine.com/public-housing-community-fund-and-hoopbus-launch-every-court-counts-initiative/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ee5044247871a8c3.html",
-   "summary": "\u201cNew York didn\u2019t learn and fall in love with basketball in stadiums and arenas, it happened on the concrete courts across public housing, and with this campaign we\u2019re bringing life back to these incredible spaces,\u201d said Alex Zablocki, Executive Director of The Public Housing Community Fund. \u201c\u2018Every\u2026",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-17T16:20:45+00:00"
-  },
-  {
-   "key": "803cd445287c4cfa",
-   "title": "Progress Stalls in Reducing 911 Calls for NYC Students in Emotional Distress",
-   "link": "https://www.thecityreporter.nyc/2026/11/17/progress-stalls-in-reducing-number-of-911-calls-for-nyc-students-in-emotional-distress/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/803cd445287c4cfa.html",
-   "summary": "Crystal Roach felt her hands shake as she ordered an Uber. Her thoughts were racing, imagining her 6-year-old son, Zai, confused and afraid. She pictured his little wrists in handcuffs, and it felt hard to breathe.\u2026",
-   "category": "nyc",
-   "source": "The City",
-   "author": "Abigail Kramer, Chalkbeat",
-   "published": "2026-11-17T16:00:00+00:00"
-  },
-  {
-   "key": "942c19cecd42aa50",
-   "title": "New Yorkers on edge after outages disrupt flights, services nationwide",
-   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/17/new-yorkers-on-edge-after-tech-outages-disrupt-flights-banking-and-microsoft-services-nationwide",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/942c19cecd42aa50.html",
-   "summary": "A series of reportedly unrelated technological disruptions affecting major companies, airlines, government agencies and banks over several days has some New Yorkers not only frustrated, but anxious about what's going on. Microsoft said a combination of a hidden software defect, increased load and\u2026",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Alyssa Paolicelli",
-   "published": "2026-11-17T11:30:00+00:00"
-  },
-  {
-   "key": "ec4eef5545c9257f",
-   "title": "Lights Out: Broken NYC Streetlights Surge As Repair Times Get Longer, Data Shows",
-   "link": "https://www.thecityreporter.nyc/2026/11/17/darkness-transportation-dot-street-safety-daylight-savings-time/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/ec4eef5545c9257f.html",
-   "summary": "New York City is taking longer to fix broken streetlights, with the average time to complete repairs hitting its lowest rate on record, city data reveals. An analysis by The City Reporter of Department of Transportation data found the number of 311 complaints for out-of-service streetlights has\u2026",
-   "category": "nyc",
-   "source": "The City",
-   "author": "Kennedy Sessions",
-   "published": "2026-11-17T10:01:00+00:00"
-  },
-  {
-   "key": "e74d25fcde43196b",
-   "title": "U.S. loses measles-elimination status, and women lead Grammy nominations",
-   "link": "http://www.ny1.com/nyc/all-boroughs/papers/2026/11/17/in-the-papers--11-17-26",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/e74d25fcde43196b.html",
-   "summary": "Pat Kiernan takes a look at what's in the papers on this Tuesday, Nov. 17, 2026.",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Spectrum News Staff",
-   "published": "2026-11-17T09:19:00+00:00"
-  },
-  {
-   "key": "9ac3ba5bb28686f1",
-   "title": "Mamdani unveils framework to support horse carriage workers ahead of ban",
-   "link": "http://www.ny1.com/nyc/all-boroughs/politics/2026/11/17/mamdani-unveils-framework-to-support-horse-carriage-workers-ahead-of-ban",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/9ac3ba5bb28686f1.html",
-   "summary": "Mayor Zohran Mamdani announced a framework Tuesday to help horse-drawn carriage drivers and stable workers find new jobs as New York City prepares to phase out the industry by June 2028. \"As New York City moves to bring the horse-drawn carriage industry to a close, we have a responsibility to the\u2026",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Erica Brosnan",
-   "published": "2026-11-17T08:50:00+00:00"
-  },
-  {
-   "key": "db8cf9bf3d3bee12",
-   "title": "Detectives\u2019 Endowment Association president reacts to Mamdani disbanding NYPD\u2019s Strategic Response Group",
-   "link": "http://www.ny1.com/nyc/all-boroughs/inside-city-hall/2026/11/17/detectives--endowment-association-president-reacts-to-mamdani-disbanding-nypd-s-strategic-response-group",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/db8cf9bf3d3bee12.html",
-   "summary": "On Monday, Mayor Zohran Mamdani and Police Commissioner Jessica Tisch announced that they will disband the NYPD\u2019s Strategic Response Group, which handles counterterrorism and crowd control. Scott Munro, the president of the Detectives\u2019 Endowment Association, the union representing NYPD detectives\u2026",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Spectrum News Staff",
-   "published": "2026-11-17T08:30:00+00:00"
-  },
-  {
-   "key": "8429de1825698b40",
-   "title": "Jeffries poised to be nominated speaker as Schumer's push for Senate leadership intensifies",
-   "link": "http://www.ny1.com/nyc/all-boroughs/news/2026/11/18/jeffries-poised-to-be-nominated-speaker-as-schumer-s-push-for-senate-leadership-intensifies",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/8429de1825698b40.html",
-   "summary": "On Wednesday morning, U.S. House Democrats are set to meet behind closed doors to begin electing their leadership team.",
-   "category": "nyc",
-   "source": "NY1",
-   "author": "Shannon Ryan",
-   "published": "2026-11-17T08:20:00+00:00"
   }
  ]
 }
