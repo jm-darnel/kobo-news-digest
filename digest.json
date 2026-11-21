@@ -2,6 +2,83 @@
  "version": 1,
  "items": [
   {
+   "key": "198cdcd802140ab9",
+   "title": "FDNY grapples with lithium-ion danger, EMS shortages and a building collapse",
+   "link": "https://gothamist.com/news/fdny-grapples-with-lithium-ion-danger-ems-shortages-and-a-building-collapse",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/198cdcd802140ab9.html",
+   "summary": "FDNY Commissioner Lillian Bonsignore FDNY Commissioner Lillian Bonsignore and First Deputy Commissioner Daniel Flynn joins WNYC's Tiffany Hanssen to unpack why deadly fires are on the rise.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Tiffany Hanssen, Jill Webb, Elizabeth Shwe",
+   "published": "2026-11-21T20:46:09+00:00"
+  },
+  {
+   "key": "8a4036e856d2d2d0",
+   "title": "NYC Minority Chamber Celebrates Times Square Networking Success, Expanding Economic Opportunity",
+   "link": "https://www.harlemworldmagazine.com/nyc-minority-chamber-celebrates-times-square-networking-success-expanding-economic-opportunity/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/8a4036e856d2d2d0.html",
+   "summary": "Never miss new stories in Harlem Building a Stronger Economic Future for New York City",
+   "category": "harlem",
+   "source": "Harlem World",
+   "author": "Harlem World Magazine",
+   "published": "2026-11-21T19:55:12+00:00"
+  },
+  {
+   "key": "2c365bf88c7493d3",
+   "title": "Rain once again coming for NYC's idyllic fall \u2014 and maybe Thanksgiving, too",
+   "link": "https://gothamist.com/news/rain-one-again-coming-for-nycs-idyllic-fall-and-maybe-thanksgiving-too",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/2c365bf88c7493d3.html",
+   "summary": "Get out the umbrellas, New York. It's been sunny and mild most of the fall.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Ryan Kost",
+   "published": "2026-11-21T16:23:00+00:00"
+  },
+  {
+   "key": "678cd0c724121fd4",
+   "title": "Fans are paying the price for baseball\u2019s lack of vision",
+   "link": "https://www.pinstripealley.com/yankees-analysis-sabermetrics/215122/yankees-mlb-rawlings-private-equity-pe-lockout-offseason-cba-union-salary-cap",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/678cd0c724121fd4.html",
+   "summary": "I need to start this article with the caveat that I know baseball is a business, I know Rawlings is a business, I know that businesses are driven by profitability (ehhhhhhh) and all of the other things a certain kind of commenter is going to sound off on, so let\u2019s get that out of the [\u2026]",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Joshua Diemert",
+   "published": "2026-11-21T16:00:00+00:00"
+  },
+  {
+   "key": "b0f69564771f01cb",
+   "title": "Federal judge in NY denies release of man shot by ICE in the Bronx",
+   "link": "https://gothamist.com/news/federal-judge-denies-release-of-man-shot-by-ice-in-the-bronx",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/b0f69564771f01cb.html",
+   "summary": "Demonstrators in the Bronx protesting ICE's shooting of Oscar Belgal Oscar Belgal filed a habeas corpus petition for release.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Arya Sundaram",
+   "published": "2026-11-21T15:24:00+00:00"
+  },
+  {
+   "key": "3db05837b0b166f5",
+   "title": "New York approves National Grid rate freeze, but customers could see higher bills soon",
+   "link": "https://gothamist.com/news/new-york-approves-national-grid-rate-freeze-but-customers-could-see-higher-bills-soon",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/3db05837b0b166f5.html",
+   "summary": "But utility advocates called it a sneaky way to pass costs on to ratepayers without having to go through the arduous process of a traditional rate hike case. According to National Grid\u2019s own filings, the utility estimated roughly $1.7 billion in capital investments during the freeze that it would\u2026",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Rosemary Misdary",
+   "published": "2026-11-21T13:00:50+00:00"
+  },
+  {
+   "key": "d41f06a8020e19aa",
+   "title": "Yankees Birthday of the Day: Todd Erdos",
+   "link": "https://www.pinstripealley.com/yankees-history-trivia/215097/yankees-history-november-21-todd-erdos-1998-world-series-champion-clemens-leiter",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/d41f06a8020e19aa.html",
+   "summary": "Every season, every team in the league needs arms to fill in the gaps. Sure, the 2026 Yankees had a league-leading, star-studded pitching staff, but even they needed players to mop up occasionally, to shoulder the load when the lights had dimmed a bit. These are the kinds of arms that are tough to\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Jake Devin",
+   "published": "2026-11-21T13:00:00+00:00"
+  },
+  {
    "key": "ddf0669acd531cdb",
    "title": "Today on Pinstripe Alley \u2013 11/21/26",
    "link": "https://www.pinstripealley.com/pinstripe-alley-discussions/215117/today-on-pinstripe-alley-11-21-26",
@@ -134,17 +211,6 @@
    "published": "2026-11-20T19:30:00+00:00"
   },
   {
-   "key": "75b98d2b36ec1216",
-   "title": "MTA chair skeptical of Amtrak's big idea to unify Penn Station's railroads",
-   "link": "https://gothamist.com/news/mta-chair-skeptical-of-amtraks-big-idea-to-unify-penn-stations-railroads",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/75b98d2b36ec1216.html",
-   "summary": "MTA Chair Janno Lieber with WNYC transportation and infrastructure editor Clayton Guse in The Greene Space. MTA Chair Janno Lieber joined WNYC transportation and infrastructure editor Clayton Guse for a live interview in The Greene Space this week.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Clayton Guse",
-   "published": "2026-11-20T19:14:59+00:00"
-  },
-  {
    "key": "aced795437c716d2",
    "title": "Understanding The Legal Road From Injury To Compensation",
    "link": "https://www.harlemworldmagazine.com/understanding-the-legal-road-from-injury-to-compensation/",
@@ -165,39 +231,6 @@
    "source": "Harlem World",
    "author": "Harlem World Magazine",
    "published": "2026-11-20T17:11:49+00:00"
-  },
-  {
-   "key": "8ea687bf91f3d066",
-   "title": "Yankees Birthday of the Day: Clark Griffith",
-   "link": "https://www.pinstripealley.com/yankees-history-trivia/215019/yankees-history-calvin-griffith-birthday-november-20-manager-pitcher-owner-washington",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/8ea687bf91f3d066.html",
-   "summary": "Though Clark Griffith is the first man to manage the New York baseball team we now call the Yankees, his time in New York is merely one chapter in a story of one of the giants of baseball\u2019s early history. That\u2019s no shot at Griffith\u2019s time in New York and his importance to the franchise. [\u2026]",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Kevin Winterhalt",
-   "published": "2026-11-20T17:00:00+00:00"
-  },
-  {
-   "key": "34be3675605ff32b",
-   "title": "Mamdani tears Achilles in soccer match against NYC press corps, will be out for the season",
-   "link": "https://gothamist.com/news/m",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/34be3675605ff32b.html",
-   "summary": "Mayor Zohran Mamdani is hobbled after tearing his achilles during a soccer match against local journalists on Thursday night. The mayor arrived late to the Thursday night match and admitted he did not stretch before hitting the field.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Elizabeth Kim, Clayton Guse",
-   "published": "2026-11-20T16:51:00+00:00"
-  },
-  {
-   "key": "964eac0a1f5f9d31",
-   "title": "Mamdani tears Achilles in soccer match against NYC press corps, will be out for the season",
-   "link": "https://gothamist.com/news/mamdani-tears-achilles-soccer-game",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/964eac0a1f5f9d31.html",
-   "summary": "Mayor Zohran Mamdani is hobbled after tearing his achilles during a soccer match against local journalists on Thursday night. The mayor arrived late to the Thursday night match and admitted he did not stretch before hitting the field.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Elizabeth Kim, Clayton Guse",
-   "published": "2026-11-20T16:51:00+00:00"
   },
   {
    "key": "687f88e18d63301c",
@@ -222,17 +255,6 @@
    "published": "2026-11-20T16:45:20+00:00"
   },
   {
-   "key": "285421914de39d51",
-   "title": "Builder facing bankruptcy will lead environmental review of controversial NJ ICE warehouse",
-   "link": "https://gothamist.com/news/builder-facing-bankruptcy-will-lead-environmental-review-of-controversial-nj-ice-warehouse",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/285421914de39d51.html",
-   "summary": "An ICE vehicle parked outside a warehouse in Roxbury, New Jersey that the Trump administration plans to convert into an immigration detention facility. The selection may signal that the Trump administration remains committed to converting warehouses into immigration detention facilities.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Mike Hayes",
-   "published": "2026-11-20T16:38:00+00:00"
-  },
-  {
    "key": "0e62b6a33c400782",
    "title": "Mamdani sets plan to close NYC\u2019s notorious Rikers Island jail",
    "link": "https://amsterdamnews.com/news/2026/11/20/mamdani-sets-plan-to-close-nycs-notorious-rikers-island-jail/",
@@ -242,17 +264,6 @@
    "source": "Amsterdam News",
    "author": "ANTHONY IZAGUIRRE Associated Press",
    "published": "2026-11-20T15:19:20+00:00"
-  },
-  {
-   "key": "e85da7651a679dbd",
-   "title": "Yankees 2026 Roster Report Cards: George Lombard Jr.",
-   "link": "https://www.pinstripealley.com/yankees-roster/215006/yankees-2026-report-card-george-lombard-jr-shortstop-rookie-year",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/e85da7651a679dbd.html",
-   "summary": "Few positions, or the players manning them, have been debated as intensely as shortstop for the New York Yankees over the last several seasons. Heading into 2026, many fans hoped the club would find a way to move on from the Anthony Volpe experience. However, the club made no external moves and\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Jonathan Farrar",
-   "published": "2026-11-20T15:00:00+00:00"
   },
   {
    "key": "b503bcc2f7033e6e",
@@ -385,17 +396,6 @@
    "source": "Harlem World",
    "author": "Harlem World Magazine",
    "published": "2026-11-19T19:31:07+00:00"
-  },
-  {
-   "key": "340e6119b38194ee",
-   "title": "Abreu To Introduce E-bike Bill Requested By Mayor To Hold Apps Accountable",
-   "link": "https://www.harlemworldmagazine.com/abreu-to-introduce-e-bike-bill-requested-by-mayor-to-hold-apps-accountable/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/340e6119b38194ee.html",
-   "summary": "City Hall Majority Leader Shaun Abreu will introduce a bill requested by the Mamdani administration at this afternoon\u2019s stated meeting to hold delivery apps and companies accountable for the e-bikes that their workers use. New York City has seen a sharp increase in injuries and fires resulting from\u2026",
-   "category": "harlem",
-   "source": "Harlem World",
-   "author": "Harlem World Magazine",
-   "published": "2026-11-19T18:46:13+00:00"
   },
   {
    "key": "3bd6a9497eb68ddc",
