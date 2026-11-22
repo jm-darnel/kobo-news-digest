@@ -2,6 +2,39 @@
  "version": 1,
  "items": [
   {
+   "key": "a4cf6f4a9e852e56",
+   "title": "Adopt a storm drain? NYC proposal aims to enlist residents in flood prevention.",
+   "link": "https://gothamist.com/news/adopt-a-storm-drain-nyc-proposal-aims-to-enlist-residents-in-flood-prevention",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/a4cf6f4a9e852e56.html",
+   "summary": "Floodwater pools on a sidewalk down 100th Street in the Howard Beach neighborhood of Queens on Sept. 27, 2026. A City Council proposal would create a volunteer program to keep debris out of catch basins and help prevent flooded streets.",
+   "category": "nyc",
+   "source": "Gothamist",
+   "author": "Giulia Heyward",
+   "published": "2026-11-22T13:00:49+00:00"
+  },
+  {
+   "key": "eee16349182390e7",
+   "title": "South Carolina State defeats Delaware State 26-16 to claim outright MEAC championship",
+   "link": "https://amsterdamnews.com/news/2026/11/22/south-carolina-state-defeats-delaware-state-26-16-to-claim-outright-meac-championship/",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/eee16349182390e7.html",
+   "summary": "Keely Watson threw for 211 yards and South Carolina State wrapped up another Mid-Eastern Athletic Conference championship with a 26-16 victory over Delaware State on Saturday.",
+   "category": "harlem",
+   "source": "Amsterdam News",
+   "author": "Associated Press",
+   "published": "2026-11-22T12:56:37+00:00"
+  },
+  {
+   "key": "097891261617a452",
+   "title": "Today on Pinstripe Alley \u2013 11/22/26",
+   "link": "https://www.pinstripealley.com/pinstripe-alley-discussions/215175/yankees-mlb-pinstripe-alley-11-22-26",
+   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/097891261617a452.html",
+   "summary": "We\u2019re just about a week out from MLB owners locking out the players, and that means we\u2019ve had a pretty active weekend of hot stove rumors and action. The Mets surprised by locking up young outfielder AJ Ewing on a nine-year extension yesterday, and we also heard some interesting buzz, such as the\u2026",
+   "category": "yankees",
+   "source": "Pinstripe Alley",
+   "author": "Jake Devin",
+   "published": "2026-11-22T11:00:00+00:00"
+  },
+  {
    "key": "f0e265ef6f89afbb",
    "title": "Yankees news: Brian Cashman shopping Spencer Jones, Jasson Dom\u00ednguez, Ryan McMahon",
    "link": "https://www.pinstripealley.com/yankees-news/215208/yankees-news-mlb-offseason-spencer-jones-jasson-dominguez-ryan-mcmahon-trade-rumors-roh-si-hwan-third-base",
@@ -145,17 +178,6 @@
    "published": "2026-11-20T23:22:00+00:00"
   },
   {
-   "key": "364b359d65f155ea",
-   "title": "Yankees non-tender Fernando Cruz, Luis Gil",
-   "link": "https://www.pinstripealley.com/yankees-roster/215126/yankees-nontender-fernando-cruz-luis-gil-arbitration-eligible-deadline-bullpen",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/364b359d65f155ea.html",
-   "summary": "Should both parties fail to agree on a number, the case would be submitted to an arbitration hearing. These hearings typically occur in February \u2014 subject to change due to the looming expiry of the CBA and expected owner lockout of the players \u2014 with the arbitration panel resolving the case by\u2026",
-   "category": "yankees",
-   "source": "Pinstripe Alley",
-   "author": "Peter Brody",
-   "published": "2026-11-20T23:03:06+00:00"
-  },
-  {
    "key": "9185d6ac09ef41c8",
    "title": "Non-stop Christmas music begins on 106.7 Lite FM",
    "link": "https://amsterdamnews.com/news/2026/11/20/non-stop-christmas-music-begins-on-106-7-lite-fm/",
@@ -187,17 +209,6 @@
    "source": "Harlem World",
    "author": "Harlem World Magazine",
    "published": "2026-11-20T21:37:16+00:00"
-  },
-  {
-   "key": "382a2c1d71544c75",
-   "title": "Group looking to open NYC's primaries tries again, over Mamdani's pushback",
-   "link": "https://gothamist.com/news/group-looking-to-open-nycs-primaries-tries-again-over-mamdanis-pushback",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/382a2c1d71544c75.html",
-   "summary": "A group is pushing to open NYC's primaries to all registered voters. Unite NY\u2019s first batch of petitions is still tied up in a legal fight with the city.",
-   "category": "nyc",
-   "source": "Gothamist",
-   "author": "Brigid Bergin",
-   "published": "2026-11-20T21:09:15+00:00"
   },
   {
    "key": "b82be440c0096444",
@@ -429,17 +440,6 @@
    "source": "The City",
    "author": "Samantha Olander, Chalkbeat",
    "published": "2026-11-19T17:00:00+00:00"
-  },
-  {
-   "key": "bcf0d15d7722b376",
-   "title": "Paved-Over Black Cemetery Could Qualify as Landmark, Commission Says",
-   "link": "https://www.thecityreporter.nyc/2026/11/19/queens-black-cemetery-burial-ground-st-mark-landmark-mamdani/",
-   "page_url": "https://jm-darnel.github.io/kobo-news-digest/articles/bcf0d15d7722b376.html",
-   "summary": "Researchers at the city\u2019s Landmarks Preservation Commission have determined that an African burial ground in Elmhurst, Queens, that currently sits under an illegal parking lot is likely eligible for landmark status. \u201cWe believe the former cemetery has cultural and historic significance related to\u2026",
-   "category": "nyc",
-   "source": "The City",
-   "author": "Greg B. Smith",
-   "published": "2026-11-19T14:55:49+00:00"
   }
  ]
 }
